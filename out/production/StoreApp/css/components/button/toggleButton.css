@@ -1,0 +1,15 @@
+.toggle-button {
+    -fx-background-color: derive(-fx-toggle-button-background-default, 0%);
+    -fx-text-fill: derive(-fx-toggle-button-text-default, 0%);
+    -fx-font-size: 14px;
+}
+
+.toggle-button:hover {
+    -fx-background-color: derive(-fx-toggle-button-background-hover, 0%);
+    -fx-text-fill: derive(-fx-toggle-button-text-hover, 0%);
+}
+
+.toggle-button:selected {
+    -fx-background-color: derive(-fx-toggle-button-background-focused, 0%);
+    -fx-text-fill: derive(-fx-toggle-button-text-focused, 0%);
+}

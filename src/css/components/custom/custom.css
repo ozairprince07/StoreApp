@@ -1,0 +1,24 @@
+.main {
+    -fx-background-color: derive(-fx-color-main, 0%);
+}
+
+.back {
+    -fx-background-color: derive(-fx-color-back, 0%);
+}
+
+.front {
+    -fx-background-color: derive(-fx-color-front, 0%);
+}
+
+.top-bar {
+    -fx-background-color: derive(-fx-color-topBar, 0%);
+}
+
+.side-bar {
+    -fx-background-color: derive(-fx-color-sideBar, 0%);
+}
+
+.shopName {
+    -fx-text-fill: derive(-fx-color-text, 0%);
+    -fx-font-size: 24px;
+}

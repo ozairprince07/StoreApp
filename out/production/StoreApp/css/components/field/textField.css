@@ -1,0 +1,19 @@
+.text-field {
+    -fx-background-color: derive(-fx-field-background-default, 0%);
+    -fx-text-fill: derive(-fx-field-text-default, 0%);
+    -fx-prompt-text-fill: derive(-fx-field-prompt-text, 0%);
+    -fx-pref-height: 30px;
+    -fx-border-color: derive(-fx-field-color-border, 0%);
+}
+
+.text-field:hover {
+    -fx-background-color: derive(-fx-field-background-hover, 0%);
+    -fx-text-fill: derive(-fx-field-text-hover, 0%);
+    -fx-border-color: derive(-fx-field-border-hover, 0%);
+}
+
+.text-field:focused {
+    -fx-background-color: derive(-fx-field-background-focused, 0%);
+    -fx-text-fill: derive(-fx-field-text-focused, 0%);
+    -fx-border-color: derive(-fx-field-border-focused, 0%);
+}

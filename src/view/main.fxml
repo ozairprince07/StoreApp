@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:id="borderPane" styleClass="main"
+            stylesheets="@../css/themes/dark/dark.css" xmlns="http://javafx.com/javafx/11.0.2"
+            fx:controller="controller.MainController">
+    <center>
+        <AnchorPane prefHeight="600.0" prefWidth="800.0"/>
+    </center>
+    <left>
+        <VBox spacing="20.0" styleClass="side-bar">
+            <VBox alignment="TOP_CENTER" spacing="20.0" VBox.vgrow="ALWAYS">
+                <VBox.margin>
+                    <Insets top="20.0"/>
+                </VBox.margin>
+                <padding>
+                    <Insets bottom="15.0" left="15.0" right="15.0" top="15.0"/>
+                </padding>
+                <HBox>
+                    <VBox.margin>
+                        <Insets top="20.0"/>
+                    </VBox.margin>
+                    <ToggleButton fx:id="dashboardBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
+                                  mnemonicParsing="false" text="Dashboard" HBox.hgrow="ALWAYS">
+                        <graphic>
+                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="1.5em"
+                                             styleClass="glyph-icon"/>
+                        </graphic>
+                        <cursor>
+                            <Cursor fx:constant="HAND"/>
+                        </cursor>
+                    </ToggleButton>
+                </HBox>
+                <HBox alignment="CENTER_LEFT">
+                    <ToggleButton fx:id="invoiceBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
+                                  mnemonicParsing="false" text="Invoice" HBox.hgrow="ALWAYS">
+                        <graphic>
+                            <FontAwesomeIcon iconName="SHOPPING_CART" selectionStart="2" size="1.5em"
+                                             styleClass="glyph-icon"/>
+                        </graphic>
+                        <cursor>
+                            <Cursor fx:constant="HAND"/>
+                        </cursor>
+                        <HBox.margin>
+                            <Insets/>
+                        </HBox.margin>
+                    </ToggleButton>
+                </HBox>
+                <HBox alignment="CENTER_LEFT">
+                    <ToggleButton fx:id="exploreBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
+                                  mnemonicParsing="false" text="Explore" HBox.hgrow="ALWAYS">
+                        <graphic>
+                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="1.5em"
+                                             styleClass="glyph-icon"/>
+                        </graphic>
+                        <cursor>
+                            <Cursor fx:constant="HAND"/>
+                        </cursor>
+                    </ToggleButton>
+                </HBox>
+                <HBox alignment="CENTER_LEFT">
+                    <ToggleButton fx:id="customerBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
+                                  mnemonicParsing="false" text="Customer" HBox.hgrow="ALWAYS">
+                        <graphic>
+                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="1.5em"
+                                             styleClass="glyph-icon"/>
+                        </graphic>
+                        <cursor>
+                            <Cursor fx:constant="HAND"/>
+                        </cursor>
+                    </ToggleButton>
+                </HBox>
+                <HBox alignment="CENTER_LEFT">
+                    <ToggleButton fx:id="companyBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
+                                  mnemonicParsing="false" text="Company" HBox.hgrow="ALWAYS">
+                        <graphic>
+                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="1.5em"
+                                             styleClass="glyph-icon"/>
+                        </graphic>
+                        <cursor>
+                            <Cursor fx:constant="HAND"/>
+                        </cursor>
+                    </ToggleButton>
+                </HBox>
+                <HBox layoutX="25.0" layoutY="249.0">
+                    <children>
+                        <ToggleButton fx:id="todoBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
+                                      mnemonicParsing="false" text="Todo List" HBox.hgrow="ALWAYS">
+                            <graphic>
+                                <FontAwesomeIcon iconName="STAR" selectionStart="2" size="1.5em"
+                                                 styleClass="glyph-icon"/>
+                            </graphic>
+                        </ToggleButton>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT">
+                    <ToggleButton fx:id="historyBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
+                                  mnemonicParsing="false" text="History" HBox.hgrow="ALWAYS">
+                        <graphic>
+                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="1.5em"
+                                             styleClass="glyph-icon"/>
+                        </graphic>
+                        <cursor>
+                            <Cursor fx:constant="HAND"/>
+                        </cursor>
+                    </ToggleButton>
+                </HBox>
+                <HBox alignment="CENTER_LEFT">
+                    <ToggleButton fx:id="settingBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
+                                  mnemonicParsing="false" text="Setting" HBox.hgrow="ALWAYS">
+                        <graphic>
+                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="1.5em"
+                                             styleClass="glyph-icon"/>
+                        </graphic>
+                        <cursor>
+                            <Cursor fx:constant="HAND"/>
+                        </cursor>
+                    </ToggleButton>
+                </HBox>
+            </VBox>
+        </VBox>
+    </left>
+    <top>
+        <AnchorPane prefWidth="957.0" styleClass="top-bar" BorderPane.alignment="CENTER">
+            <Label layoutX="68.0" layoutY="18.0" styleClass="shopName" text="Shop Name" AnchorPane.bottomAnchor="15.0"
+                   AnchorPane.leftAnchor="68.0" AnchorPane.topAnchor="15.0"/>
+            <ToggleButton fx:id="menuBtn" contentDisplay="GRAPHIC_ONLY" layoutX="5.0" layoutY="34.0"
+                          mnemonicParsing="false" prefWidth="40.0" styleClass="toggle-button" text="ToggleButton"
+                          AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+                <graphic>
+                    <FontAwesomeIcon iconName="BARS" size="1.5em" styleClass="glyph-icon"/>
+                </graphic>
+                <cursor>
+                    <Cursor fx:constant="HAND"/>
+                </cursor>
+            </ToggleButton>
+            <ToggleButton fx:id="themeBtn" layoutX="849.0" layoutY="20.0" mnemonicParsing="false" prefHeight="35.0"
+                          prefWidth="105.0" text="Light" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0"
+                          AnchorPane.topAnchor="15.0"/>
+            <ToggleButton fx:id="calculatorBtn" layoutX="849.0" layoutY="25.0" mnemonicParsing="false" prefHeight="35.0"
+                          prefWidth="105.0" text="Calculator" AnchorPane.bottomAnchor="15.0"
+                          AnchorPane.rightAnchor="130.0" AnchorPane.topAnchor="15.0"/>
+            <Button fx:id="openDialog" layoutX="401.0" layoutY="19.0" mnemonicParsing="false" text="open DIalog"/>
+        </AnchorPane>
+    </top>
+</BorderPane>

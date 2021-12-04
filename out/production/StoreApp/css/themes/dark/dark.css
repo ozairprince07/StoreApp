@@ -1,0 +1,107 @@
+@import "../../main.css";
+
+* {
+
+    /* * ----------------------------  Main Colors  -------------------------------  */
+    -fx-color-main: #232424;
+    -fx-color-primary: #151616;
+    -fx-color-secondary: #5292e9;
+    -fx-color-text: #ffffff;
+    -fx-color-desc: #999999;
+
+    /* * ----------------------------  Button Colors  -------------------------------  */
+
+    /* ? Default */
+    -fx-button-background-default: derive(-fx-color-primary, 0%);
+    -fx-button-text-default: derive(-fx-color-desc, 0%);
+    -fx-button-border-color: derive(-fx-color-transparent, 0%);
+    /* ? Hover */
+    -fx-button-background-hover: derive(-fx-color-primary, 10%);
+    -fx-button-text-hover: derive(-fx-color-text, 0%);
+    -fx-button-border-color-hover: derive(-fx-color-secondary, 70%);
+    /* ? Focused */
+    -fx-button-background-focused: derive(-fx-color-primary, 0%);
+    -fx-button-text-focused: derive(-fx-color-text, 0%);
+    -fx-button-border-color-focused: derive(-fx-color-secondary, 0%);
+
+    /* * ----------------------------  Toggle Button Colors  -------------------------------  */
+
+    /* ? Default */
+    -fx-toggle-button-background-default: derive(-fx-color-primary, 0%);
+    -fx-toggle-button-text-default: derive(-fx-color-desc, 0%);
+    /* ? Hover */
+    -fx-toggle-button-background-hover: derive(-fx-color-primary, 30%);
+    -fx-toggle-button-text-hover: derive(-fx-color-text, 0%);
+    /* ? Focused */
+    -fx-toggle-button-background-focused: derive(-fx-color-primary, 50%);
+    -fx-toggle-button-text-focused: derive(-fx-color-text, 0%);
+
+    /* * ----------------------------  Text Field Colors  -------------------------------  */
+
+    /* ? Default */
+    -fx-field-background-default: derive(-fx-color-primary, 0%);
+    -fx-field-text-default: derive(-fx-color-text, 0%);
+    -fx-field-prompt-text: derive(-fx-color-desc, 0%);
+    -fx-field-color-border: derive(-fx-color-transparent, 0%);
+    /* ? Hover */
+    -fx-field-background-hover: derive(-fx-color-primary, 10%);
+    -fx-field-text-hover: derive(-fx-color-text, 0%);
+    -fx-field-border-hover: derive(-fx-color-secondary, 70%);
+    /* ? Focused */
+    -fx-field-background-focused: derive(-fx-color-primary, 0%);
+    -fx-field-text-focused: derive(-fx-color-text, 0%);
+    -fx-field-border-focused: derive(-fx-color-secondary, 0%);
+
+    /* * ----------------------------  Tab View Colors  -------------------------------  */
+
+    -fx-color-tab-header-background: derive(-fx-color-primary, 0%);
+
+    /* * ----------------------------  Tab Colors  -------------------------------  */
+
+    /* ? Default */
+    -fx-color-tab-background: derive(-fx-color-transparent, 0%);
+    -fx-color-tab-focus: derive(-fx-color-transparent, 0%);
+    -fx-color-tab-text: derive(-fx-color-text, 0%);
+    -fx-color-tab-content-area: derive(-fx-color-main, 0%);
+    /* ? Hover */
+    -fx-color-tab-hover-background: derive(-fx-color-primary, 20%);
+    /* ? Focused || Selected */
+    -fx-color-tab-focus-background: derive(-fx-color-primary, 0%);
+    -fx-color-tab-focus-border: derive(-fx-color-secondary, 0%);
+
+    /* * ----------------------------  Table Colors  -------------------------------  */
+
+    /* ? Default */
+    -fx-color-table-view-background: derive(-fx-color-primary, 0%);
+    -fx-table-view-header-border: derive(-fx-color-primary, 0%);
+    -fx-table-view-header-background-label: derive(-fx-color-text, 0%);
+    -fx-table-view-header-background-label-border: derive(-fx-color-transparent, 0%);
+    -fx-table-view-column-header-background: derive(-fx-color-secondary, 0%);
+    -fx-table-view-cell-text: derive(-fx-color-desc, 0%);
+    -fx-table-view-row-cell-even-background: derive(-fx-color-primary, 0%);
+    -fx-table-view-row-cell-odd-background: derive(-fx-color-primary, 10%);
+    /* ? Hover */
+    -fx-table-view-row-cell-hover-background: derive(-fx-color-primary, 30%);
+    /* ? Focused */
+    -fx-color-table-view-focused-background: derive(-fx-color-trasnparent, 0%);
+    /* ? Selected */
+    -fx-color-table-view-row-selected-background: derive(-fx-color-secondary, 10%);
+
+
+    /* * ----------------------------  Extra Colors  -------------------------------  */
+    -fx-color-transparent: transparent;
+
+    /* * ----------------------------  Sidebar Colors  -------------------------------  */
+    -fx-color-sideBar: derive(-fx-color-primary, 0%);
+
+    /* * ----------------------------  Top Bar Colors  -------------------------------  */
+    -fx-color-topBar: derive(-fx-color-primary, 0%);
+
+    /* * ----------------------------  Pane Colors  -------------------------------  */
+    -fx-color-back: derive(-fx-color-main, 0%);
+    -fx-color-front: derive(-fx-color-primary, 0%);
+
+    /* * ----------------------------  Icon Colors  -------------------------------  */
+    -fx-color-icons: derive(-fx-color-text, 0%);
+
+}

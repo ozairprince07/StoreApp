@@ -1,0 +1,22 @@
+.tab {
+    -fx-background-color: derive(-fx-color-tab-background, 0%);
+    -fx-focus-color: derive(-fx-color-tab-focus, 0%);
+}
+
+.tab:hover {
+    -fx-background-color: derive(-fx-color-tab-hover-background, 50%);
+}
+
+.tab:selected, .tab:focused {
+    -fx-background-color: derive(-fx-color-tab-focus-background, 30%);
+    -fx-border-width: 0 0 4 0;
+    -fx-border-color: derive(-fx-color-tab-focus-border, 0%);
+}
+
+.tab-label {
+    -fx-text-fill: derive(-fx-color-tab-text, 0%);
+}
+
+.tab-content-area {
+    -fx-background-color: derive(-fx-color-tab-content-area, 30%);
+}

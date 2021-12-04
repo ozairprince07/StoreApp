@@ -1,0 +1,57 @@
+.table-view {
+    -fx-background-color: derive(-fx-color-table-view-background, 0%);
+}
+
+.table-view:focused {
+    -fx-background-color: derive(-fx-color-table-view-focused-background, 0%);
+}
+
+.table-view .column-header-background {
+    -fx-border-color: derive(-fx-table-view-header-border, 0%);
+}
+
+.table-view .column-header-background .label {
+    -fx-border-color: derive(-fx-table-view-header-background-label-border, 0%);
+    -fx-text-color: derive(-fx-table-view-header-background-label, 0%);
+    -fx-font-size: 14px;
+}
+
+.table-view .column-header {
+    -fx-background-color: derive(-fx-table-view-column-header-background, 0%);
+    -fx-pref-height: 30px;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: derive(-fx-table-view-cell-text, 0%);
+    -fx-text-alignment: center;
+    -fx-font-size: 14px;
+    -fx-border-color: derive(-fx-color-transparent, 0%);
+}
+
+.table-row-cell {
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    -fx-pref-height: 35px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: derive(-fx-table-view-row-cell-odd-background, 0%);
+}
+
+.table-row-cell:even {
+    -fx-background-color: derive(-fx-table-view-row-cell-even-background, 0%);
+}
+
+.table-row-cell:filled:hover {
+    -fx-background-color: derive(-fx-table-view-row-cell-hover-background, 0%);
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: derive(-fx-color-table-view-row-selected-background, 0%);
+}
+
+.table-row-cell:filled:selected .table-cell {
+    -fx-text-fill: derive(-fx-color-text, 0%);
+    -fx-font-weight: bold;
+}
+

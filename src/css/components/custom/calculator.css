@@ -1,0 +1,56 @@
+* {
+    -fx-color-main: #232424;
+    -fx-color-primary: #151616;
+    -fx-color-secondary: #5292e9;
+    -fx-color-text: #ffffff;
+    -fx-color-desc: #999999;
+}
+
+.calField {
+    -fx-background-color: derive(-fx-color-primary, 0%);
+    -fx-text-fill: derive(-fx-color-text, 0%);
+    -fx-prompt-text-fill: derive(-fx-color-text, 0%);
+    -fx-pref-height: 100px;
+    -fx-font-size: 42px;
+}
+
+.calBtn {
+    -fx-background-color: derive(-fx-color-primary, 0%);
+    -fx-text-fill: derive(-fx-color-desc, 0%);
+    -fx-pref-width: 150px;
+    -fx-pref-height: 130px;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.calBtn:hover {
+    -fx-background-color: derive(-fx-color-primary, 30%);
+    -fx-text-fill: derive(-fx-color-text, 0%);
+}
+
+.calFunBtn {
+    -fx-background-color: derive(-fx-color-main, 0%);
+    -fx-text-fill: derive(-fx-color-desc, 0%);
+    -fx-pref-width: 150px;
+    -fx-pref-height: 130px;
+    -fx-font-size: 18px;
+}
+
+.calFunBtn:hover {
+    -fx-background-color: derive(-fx-color-main, 30%);
+    -fx-text-fill: derive(-fx-color-text, 0%);
+    -fx-font-weight: bold;
+}
+
+.calCalcBtn {
+    -fx-background-color: derive(-fx-color-secondary, 0%);
+    -fx-text-fill: derive(-fx-color-text, 0%);
+    -fx-pref-width: 150px;
+    -fx-pref-height: 130px;
+    -fx-font-size: 24px;
+}
+
+.calCalcBtn:hover {
+    -fx-background-color: derive(-fx-color-secondary, 10%);
+    -fx-text-fill: derive(-fx-color-text, 0%);
+}

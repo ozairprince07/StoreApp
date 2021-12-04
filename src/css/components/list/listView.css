@@ -1,0 +1,4 @@
+.list-view {
+    -fx-background-color: derive(-fx-color-primary, 0%);
+}
+

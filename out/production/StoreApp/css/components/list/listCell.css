@@ -1,0 +1,21 @@
+.list-cell {
+    -fx-text-fill: derive(-fx-color-desc, 0%);
+    -fx-pref-height: 35px;
+    -fx-font-size: 14px;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: derive(-fx-color-secondary, 0%);
+    -fx-text-fill: derive(-fx-color-text, 0%);
+    -fx-font-weight: bold;
+}
+.list-cell:odd {
+    -fx-background-color: derive(-fx-color-primary, 0%);
+}
+.list-cell:even {
+    -fx-background-color: derive(-fx-color-primary, 10%);
+}
+.list-cell:filled:hover {
+    -fx-background-color: derive(-fx-color-primary, 30%);
+    -fx-text-fill: derive(-fx-color-text, 0%);
+}

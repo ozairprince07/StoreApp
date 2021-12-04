@@ -1,0 +1,3 @@
+.desc {
+    -fx-text-fill: derive(-fx-color-desc, 0%);
+}

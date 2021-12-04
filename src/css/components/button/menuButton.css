@@ -1,0 +1,29 @@
+.menu-button {
+    -fx-background-color: derive(-fx-button-background-default, 0%);
+    -fx-text-fill: derive(-fx-button-text-default, 0%);
+}
+
+.menu-button:hover {
+    -fx-background-color: derive(-fx-button-background-hover, 0%);
+    -fx-text-fill: derive(-fx-button-text-hover, 0%);
+}
+
+.menu-button:focused {
+    -fx-background-color: derive(-fx-button-background-focused, 0%);
+    -fx-text-fill: derive(-fx-button-text-focused, 0%);
+}
+
+.menu-item {
+    -fx-background-color: derive(-fx-button-background-default, 0%);
+    -fx-text-fill: derive(-fx-button-text-default, 0%);
+}
+
+.menu-item:hover {
+    -fx-background-color: derive(-fx-button-background-hover, 0%);
+    -fx-text-fill: derive(-fx-button-text-hover, 0%);
+}
+
+.menu-item:focused {
+    -fx-background-color: derive(-fx-button-background-focused, 0%);
+    -fx-text-fill: derive(-fx-button-text-focused, 0%);
+}

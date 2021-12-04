@@ -1,0 +1,18 @@
+@import "../../main.css";
+
+* {
+
+    /* ----------------------------  Main Colors  -------------------------------  */
+    -fx-color-main: #162963;
+    -fx-color-primary: #ffffff;
+    -fx-color-secondary: #047ffd;
+    -fx-color-text: #000000;
+    -fx-color-desc: #333333;
+
+    /* ----------------------------  Extra Colors  -------------------------------  */
+    -fx-color-transparent: transparent;
+    -fx-color-sideBar: derive(-fx-color-primary, 0%);
+    -fx-color-topBar: derive(-fx-color-primary, 0%);
+    -fx-color-icons: #000000;
+
+}

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17"
+            fx:controller="controller.TodoListController">
+   <children>
+      <BorderPane layoutY="-14.0" prefHeight="600.0" prefWidth="800.0" styleClass="back"
+                  stylesheets="@../css/components/custom/custom.css" AnchorPane.bottomAnchor="14.0"
+                  AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-14.0">
+         <left>
+            <VBox prefWidth="150.0" spacing="20.0" styleClass="front" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox>
+                     <children>
+                        <Button fx:id="addBtn" mnemonicParsing="false" prefHeight="25.0" prefWidth="152.0"
+                                text="Add Task" HBox.hgrow="ALWAYS"/>
+                     </children>
+                     <VBox.margin>
+                        <Insets/>
+                     </VBox.margin>
+                  </HBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0" styleClass="front" VBox.vgrow="ALWAYS">
+                     <children>
+                        <HBox>
+                           <children>
+                              <ToggleButton fx:id="allBtn" alignment="CENTER_LEFT" graphicTextGap="20.0"
+                                            maxWidth="130.0" mnemonicParsing="false"
+                                            stylesheets="@../css/components/icons/glyphIcons.css" text="All"
+                                            HBox.hgrow="ALWAYS">
+                                 <graphic>
+                                    <FontAwesomeIcon size="1.2em" styleClass="glyph-icon"/>
+                                 </graphic>
+                              </ToggleButton>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="10.0">
+                           <children>
+                              <ToggleButton fx:id="staredBtn" alignment="CENTER_LEFT" graphicTextGap="20.0"
+                                            maxWidth="130.0" mnemonicParsing="false"
+                                            stylesheets="@../css/components/icons/glyphIcons.css" text="Starred"
+                                            HBox.hgrow="ALWAYS">
+                                 <graphic>
+                                    <FontAwesomeIcon iconName="STAR_ALT" size="1.2em" styleClass="glyph-icon"/>
+                                 </graphic>
+                              </ToggleButton>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="10.0"/>
+                           </VBox.margin>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="35.0">
+                           <children>
+                              <ToggleButton fx:id="importantBtn" alignment="CENTER_LEFT" graphicTextGap="20.0"
+                                            maxWidth="130.0" mnemonicParsing="false"
+                                            stylesheets="@../css/components/icons/glyphIcons.css" text="Important"
+                                            HBox.hgrow="ALWAYS">
+                                 <graphic>
+                                    <FontAwesomeIcon iconName="INFO_CIRCLE" size="1.2em" styleClass="glyph-icon"/>
+                                 </graphic>
+                              </ToggleButton>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="60.0">
+                           <children>
+                              <ToggleButton fx:id="doneBtn" alignment="CENTER_LEFT" graphicTextGap="20.0"
+                                            maxWidth="130.0" mnemonicParsing="false"
+                                            stylesheets="@../css/components/icons/glyphIcons.css" text="Done"
+                                            HBox.hgrow="ALWAYS">
+                                 <graphic>
+                                    <FontAwesomeIcon iconName="ARCHIVE" size="1.2em" styleClass="glyph-icon"/>
+                                 </graphic>
+                              </ToggleButton>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="126.0">
+                           <children>
+                              <ToggleButton fx:id="trashedBtn" alignment="CENTER_LEFT" graphicTextGap="20.0"
+                                            maxWidth="130.0" mnemonicParsing="false"
+                                            stylesheets="@../css/components/icons/glyphIcons.css" text="Trashed"
+                                            HBox.hgrow="ALWAYS">
+                                 <graphic>
+                                    <FontAwesomeIcon iconName="TRASH" size="1.2em" styleClass="glyph-icon"/>
+                                 </graphic>
+                              </ToggleButton>
+                           </children>
+                        </HBox>
+                        <Label alignment="CENTER" graphicTextGap="10.0"
+                               stylesheets="@../css/components/icons/glyphIcons.css" text="Tags">
+                           <VBox.margin>
+                              <Insets left="5.0" top="20.0"/>
+                           </VBox.margin>
+                           <graphic>
+                              <FontAwesomeIcon iconName="TAGS" styleClass="glyph-icon"/>
+                           </graphic>
+                        </Label>
+                        <HBox prefHeight="22.0" prefWidth="130.0">
+                           <children>
+                              <ToggleButton alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
+                                            mnemonicParsing="false"
+                                            stylesheets="@../css/components/icons/glyphIcons.css" text="Personal"
+                                            HBox.hgrow="ALWAYS">
+                                 <graphic>
+                                    <FontAwesomeIcon iconName="TAG" size="1.2em" styleClass="glyph-icon"/>
+                                 </graphic>
+                              </ToggleButton>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="242.0" prefHeight="22.0" prefWidth="130.0">
+                           <children>
+                              <ToggleButton alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
+                                            mnemonicParsing="false"
+                                            stylesheets="@../css/components/icons/glyphIcons.css" text="Company"
+                                            HBox.hgrow="ALWAYS">
+                                 <graphic>
+                                    <FontAwesomeIcon iconName="TAG" size="1.2em" styleClass="glyph-icon"/>
+                                 </graphic>
+                              </ToggleButton>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="277.0" prefHeight="22.0" prefWidth="130.0">
+                           <children>
+                              <ToggleButton alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
+                                            mnemonicParsing="false"
+                                            stylesheets="@../css/components/icons/glyphIcons.css" text="Important"
+                                            HBox.hgrow="ALWAYS">
+                                 <graphic>
+                                    <FontAwesomeIcon iconName="TAG" size="1.2em" styleClass="glyph-icon"/>
+                                 </graphic>
+                              </ToggleButton>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="312.0" prefHeight="22.0" prefWidth="130.0">
+                           <children>
+                              <ToggleButton alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
+                                            mnemonicParsing="false"
+                                            stylesheets="@../css/components/icons/glyphIcons.css" text="Private"
+                                            HBox.hgrow="ALWAYS">
+                                 <graphic>
+                                    <FontAwesomeIcon iconName="TAG" size="1.2em" styleClass="glyph-icon"/>
+                                 </graphic>
+                              </ToggleButton>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <BorderPane.margin>
+                  <Insets top="10.0"/>
+               </BorderPane.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+               </padding>
+            </VBox>
+         </left>
+         <top>
+            <HBox alignment="CENTER" prefHeight="40.0" styleClass="front" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets right="10.0"/>
+               </BorderPane.margin>
+               <children>
+                  <Label graphicTextGap="10.0" stylesheets="@../css/components/icons/glyphIcons.css" text="Todo List"
+                         HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="24.0"/>
+                     </font>
+                     <graphic>
+                        <FontAwesomeIcon iconName="LIST_ALT" styleClass="glyph-icon"/>
+                     </graphic>
+                  </Label>
+               </children>
+            </HBox>
+         </top>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+         </padding>
+         <center>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" styleClass="back" BorderPane.alignment="CENTER">
+               <top>
+                  <HBox alignment="CENTER_LEFT" prefHeight="50.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <TextField promptText="Search Todo List" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="10.0" right="10.0"/>
+                           </HBox.margin>
+                           <padding>
+                              <Insets left="10.0"/>
+                           </padding>
+                        </TextField>
+                     </children>
+                     <BorderPane.margin>
+                        <Insets/>
+                     </BorderPane.margin>
+                  </HBox>
+               </top>
+               <center>
+                  <ListView prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="10.0" right="10.0"/>
+                     </BorderPane.margin>
+                  </ListView>
+               </center>
+            </BorderPane>
+         </center>
+      </BorderPane>
+      <AnchorPane fx:id="addTaskPane" styleClass="back" stylesheets="@../css/components/custom/custom.css"
+                  AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="75.0" styleClass="back" AnchorPane.bottomAnchor="0.0"
+                  AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <VBox spacing="10.0" styleClass="back" HBox.hgrow="ALWAYS">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" spacing="20.0">
+                           <children>
+                              <HBox alignment="CENTER_LEFT" spacing="10.0" HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label prefHeight="17.0" prefWidth="72.0" text="Todo Date"/>
+                                    <DatePicker prefHeight="25.0" prefWidth="217.0"/>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" spacing="10.0" HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label prefHeight="17.0" prefWidth="72.0" text="Tag Color"/>
+                                    <ColorPicker prefHeight="25.0" prefWidth="237.0"/>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox spacing="20.0">
+                           <children>
+                              <VBox spacing="5.0" HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label text="Name"/>
+                                    <TextField/>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="10.0" layoutY="10.0" spacing="5.0" HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label text="Tag Name"/>
+                                    <TextField/>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <Label layoutX="10.0" layoutY="10.0" text="Description"/>
+                        <TextArea prefHeight="200.0" prefWidth="200.0"/>
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+               </padding>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Circle?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="600.0" prefWidth="800.0" styleClass="front"
+            stylesheets="@../css/components/custom/custom.css" xmlns="http://javafx.com/javafx/11.0.2"
+            fx:controller="controller.CustomerController">
+   <left>
+      <ListView fx:id="listView" prefHeight="570.0" prefWidth="226.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+         </BorderPane.margin>
+      </ListView>
+   </left>
+   <center>
+      <AnchorPane styleClass="back" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fill="DODGERBLUE" layoutX="287.0" layoutY="165.0" radius="100.0" stroke="BLACK" strokeType="INSIDE"
+                    AnchorPane.topAnchor="65.0"/>
+            <HBox alignment="CENTER" layoutX="87.0" layoutY="486.0" prefHeight="50.0" spacing="10.0"
+                  AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="64.0" text="Button"/>
+                  <Button layoutX="265.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="64.0"
+                          text="Button"/>
+                  <Button layoutX="297.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="64.0"
+                          text="Button"/>
+                  <Button layoutX="329.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="64.0"
+                          text="Button"/>
+               </children>
+            </HBox>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+         </BorderPane.margin>
+      </AnchorPane>
+   </center>
+</BorderPane>

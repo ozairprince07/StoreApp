@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Initial Commit">
+      <changelist_data name="unknown" email="ozairprince07@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/highlightedFiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StoreApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/colorPallates.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/configureTheme/Theme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/AddTodoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CalculatorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController$ColorRectCell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/DashboardController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/ExploreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/InvoiceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/SettingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/TodoListController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/button/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/button/menuButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/button/toggleButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/custom/calculator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/custom/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/field/textArea.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/field/textField.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/icons/glyphIcons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/label/desc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/label/text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/list/listCell.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/list/listView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/scrollBar/scrollBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/tab/tabPane.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/tab/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/table/tableColumn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/table/tableView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/themes/dark/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/themes/dark/darkBlue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/themes/light/light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/themes/light/lightBlue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/customWidgets/CustomDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/database/Const.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/database/DBConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/dialogViews/tet.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/factory/ProductFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/helper/DragHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/helper/PathHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/helper/ViewHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/main/Sentence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/main/Store.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/main/WordIndexing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/model/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/module-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/query/ProductQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/addNewTodo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/calculator.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/customer.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/dashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/explore.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/invoice.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/setting.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/todoList.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/colorPallates.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configureTheme/Theme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/AddTodoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/ExploreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/InvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/SettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/TodoListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/button/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/button/menuButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/button/toggleButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/custom/calculator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/custom/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/field/textArea.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/field/textField.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/icons/glyphIcons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/label/desc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/label/text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/list/listCell.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/list/listView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/scrollBar/scrollBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/tab/tabPane.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/tab/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/table/tableColumn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/table/tableView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/themes/dark/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/themes/dark/darkBlue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/themes/light/light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/themes/light/lightBlue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customWidgets/CustomDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dialogViews/tet.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/ProductFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/DragHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/PathHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/ViewHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/query/ProductQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/addNewTodo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/calculator.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/customer.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/dashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/explore.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/invoice.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/setting.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/todoList.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="CSS File" />
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="unknown &lt;ozairprince07@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="abd3482a-95fa-4ebf-9735-07d9955525c8" />
+        <option name="url" value="https://github.com/ozairprince07/StoreApp.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/helper/PathHelper.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/controller/MainController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/view/main.fxml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/css/themes/dark/dark.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/configureTheme/Theme.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectId" id="20fkMUlb09DCfEjHn17aIykdMXQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFxApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFxApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFxApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.23770492" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Software\StoreApp\src\main" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="E:\Software\StoreApp\src\css\themes\light" />
+      <recent name="E:\Software\StoreApp\src\css\themes\dark" />
+      <recent name="E:\Software\StoreApp\src\css\components\button" />
+      <recent name="E:\Software\StoreApp\src\css\themes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="StoreApp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main.Store" />
+      <module name="StoreApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="StoreApp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="StoreApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordIndexing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.WordIndexing" />
+      <module name="StoreApp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WordIndexing" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1636442994451" duration="3987000" />
+      <workItem from="1636456765214" duration="2341000" />
+      <workItem from="1636906438189" duration="1330000" />
+      <workItem from="1636941449643" duration="2436000" />
+      <workItem from="1637005198722" duration="196000" />
+      <workItem from="1637109043759" duration="652000" />
+      <workItem from="1637111459167" duration="2661000" />
+      <workItem from="1637121635124" duration="2920000" />
+      <workItem from="1637159088217" duration="1820000" />
+      <workItem from="1637161108794" duration="37000" />
+      <workItem from="1637165929915" duration="1824000" />
+      <workItem from="1637167911684" duration="663000" />
+      <workItem from="1637168983065" duration="660000" />
+      <workItem from="1637193789768" duration="8356000" />
+      <workItem from="1637245627390" duration="8515000" />
+      <workItem from="1637263707814" duration="2242000" />
+      <workItem from="1637252704922" duration="1334000" />
+      <workItem from="1637291044218" duration="4297000" />
+      <workItem from="1637332280700" duration="5716000" />
+      <workItem from="1637339137142" duration="682000" />
+      <workItem from="1637352262786" duration="5156000" />
+      <workItem from="1637368887722" duration="5924000" />
+      <workItem from="1637422205333" duration="14246000" />
+      <workItem from="1637453896733" duration="5273000" />
+      <workItem from="1637518037847" duration="3783000" />
+      <workItem from="1637526942959" duration="550000" />
+      <workItem from="1637501953779" duration="4033000" />
+      <workItem from="1637664994106" duration="202000" />
+      <workItem from="1637841766554" duration="958000" />
+      <workItem from="1638105958156" duration="121000" />
+      <workItem from="1638106619178" duration="1723000" />
+      <workItem from="1638156652259" duration="10339000" />
+      <workItem from="1638181445411" duration="3238000" />
+      <workItem from="1638422129947" duration="1188000" />
+      <workItem from="1638452690007" duration="6408000" />
+      <workItem from="1638476566002" duration="4118000" />
+      <workItem from="1638507836408" duration="166000" />
+      <workItem from="1638508090093" duration="9134000" />
+      <workItem from="1638556349718" duration="3682000" />
+      <workItem from="1638570010398" duration="313000" />
+      <workItem from="1638570439528" duration="3489000" />
+      <workItem from="1638533559334" duration="3356000" />
+      <workItem from="1638583226134" duration="1330000" />
+      <workItem from="1638585079450" duration="2559000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1302000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967742" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="initial Commit" />
+    <MESSAGE value="Database Commit" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="45" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="136" selection-end="136" vertical-scroll-proportion="0.17171717">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

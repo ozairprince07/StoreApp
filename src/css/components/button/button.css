@@ -1,0 +1,18 @@
+.button {
+    -fx-background-color: derive(-fx-button-background-default, 0%);
+    -fx-text-fill: derive(-fx-button-text-default, 0%);
+    -fx-pref-height: 30px;
+    -fx-border-color: derive(-fx-button-border-color, 0%);
+}
+
+.button:hover {
+    -fx-background-color: derive(-fx-button-background-hover, 0%);
+    -fx-text-fill: derive(-fx-button-text-hover, 0%);
+    -fx-border-color: derive(-fx-button-border-color-hover, 0%);
+}
+
+.button:focused {
+    -fx-background-color: derive(-fx-button-background-focused, 0%);
+    -fx-text-fill: derive(-fx-button-text-focused, 0%);
+    -fx-border-color: derive(-fx-button-border-color-focused, 0%);
+}
