@@ -22,3 +22,18 @@
     -fx-text-fill: derive(-fx-color-text, 0%);
     -fx-font-size: 24px;
 }
+
+.coloredButton {
+    -fx-background-color: derive(-fx-color-primary, 0%);
+    -fx-border-color: derive(-fx-color-secondary, 0%);
+    -fx-border-radius: 25px;
+    -fx-background-radius: 0;
+    -fx-cursor: hand;
+}
+
+.coloredButton:hover {
+    -fx-background-color: derive(-fx-color-primary, 30%);
+    -fx-border-color: derive(-fx-color-secondary, 30%);
+    -fx-background-radius: 20px;
+    -fx-border-radius: 25px;
+}

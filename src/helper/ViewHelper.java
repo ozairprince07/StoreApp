@@ -5,6 +5,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+import org.controlsfx.control.PopOver;
 
 import java.io.IOException;
 
@@ -16,6 +17,12 @@ public class ViewHelper {
         FXMLLoader loader = new FXMLLoader();
         Parent root = FXMLLoader.load(getClass().getResource(path));
         borderPane.setCenter(root);
+    }
+
+    public void loadPopupFiles(PopOver popOver, String path) throws IOException {
+        FXMLLoader loader = new FXMLLoader();
+        Parent root = FXMLLoader.load(getClass().getResource(path));
+        popOver.setContentNode(root);
     }
 
     public void loadCal() throws IOException {

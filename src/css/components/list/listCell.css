@@ -1,24 +1,22 @@
 .list-cell {
-    -fx-text-fill: derive(-fx-color-desc, 0%);
-    -fx-pref-height: 35px;
-    -fx-font-size: 14px;
+    -fx-text-fill: derive(-fx-color-list-cell-text, 0%);
 }
 
 .list-cell:filled:selected:focused, .list-cell:filled:selected {
-    -fx-background-color: derive(-fx-color-secondary, 0%);
-    -fx-text-fill: derive(-fx-color-text, 0%);
+    -fx-background-color: derive(-fx-color-list-cell-filled-selected, 0%);
+    -fx-text-fill: derive(-fx-color-list-cell-selected-text, 0%);
     -fx-font-weight: bold;
 }
 
 .list-cell:odd {
-    -fx-background-color: derive(-fx-color-primary, 0%);
+    -fx-background-color: derive(-fx-color-transparent, 0%);
 }
 
 .list-cell:even {
-    -fx-background-color: derive(-fx-color-primary, 10%);
+    -fx-background-color: derive(-fx-color-transparent, 10%);
 }
 
 .list-cell:filled:hover {
-    -fx-background-color: derive(-fx-color-primary, 30%);
-    -fx-text-fill: derive(-fx-color-text, 0%);
+    -fx-background-color: derive(-fx-color-list-cell-hover, 30%);
+    -fx-text-fill: derive(-fx-color-list-cell-hover-text, 0%);
 }

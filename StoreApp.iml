@@ -27,6 +27,8 @@
     <orderEntry type="library" exported="" name="jfoenix-9.0.10" level="application" />
     <orderEntry type="library" exported="" name="controlsfx-8.40.11" level="application" />
     <orderEntry type="library" exported="" name="javafx-swt" level="application" />
-    <orderEntry type="library" name="mysql-connector-java-8.0.27" level="application" />
+    <orderEntry type="library" exported="" name="mysql-connector-java-8.0.27" level="application" />
+    <orderEntry type="library" exported="" name="poi-3.7" level="application" />
+    <orderEntry type="library" exported="" name="AnimateFX-1.2.1" level="application" />
   </component>
 </module>

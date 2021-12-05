@@ -50,8 +50,9 @@ public class Const {
     /* ? -> -> -> -> -> Columns Customer <- <- <- <- <- */
     public static String CUSTOMER_ID = "customer_id";
     public static String CUSTOMER_NAME = "name";
-    public static String CUSTOMER_PHONE = "phone";
     public static String CUSTOMER_ADDRESS = "address";
+    public static String CUSTOMER_PHONE = "phone";
+    public static String CUSTOMER_WHATSAPP = "whatsapp";
     public static String CUSTOMER_CREDIT_LIMIT = "credit_limit";
     public static String CUSTOMER_DEBIT_LIMIT = "debit_limit";
 

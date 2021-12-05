@@ -1,0 +1,7 @@
+.context-menu {
+    -fx-background-color: derive(-fx-color-context-menu, 0%);
+    -fx-pref-width: 150;
+    -fx-min-width: 150;
+    -fx-max-width: 150;
+    -fx-padding: 0;
+}

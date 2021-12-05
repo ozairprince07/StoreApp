@@ -1,0 +1,16 @@
+.menu-item {
+    -fx-background-color: derive(-fx-color-menu-item-default, 0%);
+    -fx-text-fill: derive(-fx-button-text-default, 0%);
+    -fx-padding: 10px;
+}
+
+.menu-item:hover {
+    -fx-background-color: derive(-fx-color-menu-item-hover, 0%);
+    -fx-text-fill: derive(-fx-button-text-hover, 0%);
+    -fx-cursor: hand;
+}
+
+.menu-item:focused {
+    -fx-background-color: derive(-fx-color-menu-item-focused, 0%);
+    -fx-text-fill: derive(-fx-button-text-focused, 0%);
+}

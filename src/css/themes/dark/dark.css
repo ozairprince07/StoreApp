@@ -5,7 +5,7 @@
     /* * ----------------------------  Main Colors  -------------------------------  */
     -fx-color-main: #232424;
     -fx-color-primary: #151616;
-    -fx-color-secondary: #5292e9;
+    -fx-color-secondary: #7d7d7d;
     -fx-color-text: #ffffff;
     -fx-color-desc: #999999;
 
@@ -52,6 +52,14 @@
     -fx-field-text-focused: derive(-fx-color-text, 0%);
     -fx-field-border-focused: derive(-fx-color-secondary, 0%);
 
+    /* * ----------------------------  Context Menu Colors  -------------------------------  */
+    -fx-color-context-menu: derive(-fx-color-primary, 0%);
+
+    /* * ----------------------------  Menu Item Colors  -------------------------------  */
+    -fx-color-menu-item-default: derive(-fx-color-primary, 0%);
+    -fx-color-menu-item-hoverd: derive(-fx-color-main, 0%);
+    -fx-color-menu-item-focused: derive(-fx-color-main, 0%);
+
     /* * ----------------------------  Tab View Colors  -------------------------------  */
 
     -fx-color-tab-header-background: derive(-fx-color-primary, 0%);
@@ -87,6 +95,17 @@
     /* ? Selected */
     -fx-color-table-view-row-selected-background: derive(-fx-color-secondary, 10%);
 
+    /* * ----------------------------  ListCell Colors  -------------------------------  */
+    /* ? Default */
+    -fx-color-list-cell-text: derive(-fx-color-desc, 0%);
+    -fx-color-list-cell-odd: derive(-fx-color-primary, 0%);
+    -fx-color-list-cell-even: derive(-fx-color-primary, 10%);
+    /* ? Focused */
+    -fx-color-list-cell-filled-selected: derive(-fx-color-secondary, 0%);
+    -fx-color-list-cell-selected-text: derive(-fx-color-text, 0%);
+    /* ? Hover */
+    -fx-color-list-cell-hover: derive(-fx-color-primary, 30%);
+    -fx-color-list-cell-hover-text: derive(-fx-color-text, 0%);
 
     /* * ----------------------------  Extra Colors  -------------------------------  */
     -fx-color-transparent: transparent;

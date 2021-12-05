@@ -18,12 +18,12 @@
 
 .table-view .column-header {
     -fx-background-color: derive(-fx-table-view-column-header-background, 0%);
-    -fx-pref-height: 30px;
+    -fx-pref-height: 40px;
 }
 
 .table-view .table-cell {
     -fx-text-fill: derive(-fx-table-view-cell-text, 0%);
-    -fx-text-alignment: center;
+    -fx-alignment: center;
     -fx-font-size: 14px;
     -fx-border-color: derive(-fx-color-transparent, 0%);
 }
@@ -31,7 +31,7 @@
 .table-row-cell {
     -fx-background-insets: 0, 0 0 1 0;
     -fx-padding: 0.0em;
-    -fx-pref-height: 35px;
+    -fx-pref-height: 30px;
 }
 
 .table-row-cell:odd {

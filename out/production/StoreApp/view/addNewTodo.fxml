@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.ColorPicker?>
-<?import javafx.scene.control.DatePicker?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.web.HTMLEditor?>
-
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="back" stylesheets="@../css/components/custom/custom.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddTodoController">
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="400.0" prefWidth="600.0" styleClass="back"
+            stylesheets="@../css/components/custom/custom.css" xmlns="http://javafx.com/javafx/17"
+            fx:controller="controller.AddTodoController">
    <children>
-      <AnchorPane layoutX="164.0" layoutY="23.0" prefHeight="50.0" styleClass="front" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <AnchorPane layoutX="164.0" layoutY="23.0" prefHeight="50.0" styleClass="front" AnchorPane.leftAnchor="0.0"
+                  AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Label layoutX="14.0" layoutY="17.0" text="Add Todo Item" AnchorPane.bottomAnchor="17.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="17.0">
+            <Label layoutX="14.0" layoutY="17.0" text="Add Todo Item" AnchorPane.bottomAnchor="17.0"
+                   AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="17.0">
                <font>
-                  <Font size="14.0" />
+                  <Font size="14.0"/>
                </font>
             </Label>
          </children>
       </AnchorPane>
-      <HBox layoutX="10.0" layoutY="75.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="65.0">
+      <HBox layoutX="10.0" layoutY="75.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+            AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="65.0">
          <children>
             <VBox spacing="10.0" styleClass="front" HBox.hgrow="ALWAYS">
                <children>
@@ -31,14 +30,14 @@
                      <children>
                         <HBox alignment="CENTER_LEFT" spacing="10.0" HBox.hgrow="ALWAYS">
                            <children>
-                              <Label prefHeight="17.0" prefWidth="72.0" text="Todo Date" />
-                              <DatePicker prefHeight="25.0" prefWidth="217.0" />
+                              <Label prefHeight="17.0" prefWidth="72.0" text="Todo Date"/>
+                              <DatePicker prefHeight="25.0" prefWidth="217.0"/>
                            </children>
                         </HBox>
                         <HBox alignment="CENTER_LEFT" spacing="10.0" HBox.hgrow="ALWAYS">
                            <children>
-                              <Label prefHeight="17.0" prefWidth="72.0" text="Tag Color" />
-                              <ColorPicker prefHeight="25.0" prefWidth="237.0" />
+                              <Label prefHeight="17.0" prefWidth="72.0" text="Tag Color"/>
+                              <ColorPicker prefHeight="25.0" prefWidth="237.0"/>
                            </children>
                         </HBox>
                      </children>
@@ -47,26 +46,28 @@
                      <children>
                         <VBox HBox.hgrow="ALWAYS">
                            <children>
-                              <Label text="Name" />
-                              <TextField />
+                              <Label text="Name"/>
+                              <TextField/>
                            </children>
                         </VBox>
                         <VBox layoutX="10.0" layoutY="10.0" HBox.hgrow="ALWAYS">
                            <children>
-                              <Label text="Tag Name" />
-                              <TextField />
+                              <Label text="Tag Name"/>
+                              <TextField/>
                            </children>
                         </VBox>
                      </children>
                   </HBox>
-                  <Label layoutX="10.0" layoutY="10.0" text="Description" />
-                  <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" prefHeight="231.0" prefWidth="580.0" VBox.vgrow="ALWAYS" />
+                  <Label layoutX="10.0" layoutY="10.0" text="Description"/>
+                  <HTMLEditor
+                          htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;"
+                          prefHeight="231.0" prefWidth="580.0" VBox.vgrow="ALWAYS"/>
                </children>
             </VBox>
          </children>
       </HBox>
    </children>
    <padding>
-      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
    </padding>
 </AnchorPane>

@@ -2,138 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Initial Commit">
-      <changelist_data name="unknown" email="ozairprince07@gmail.com" />
-      <change afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/highlightedFiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StoreApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/colorPallates.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/configureTheme/Theme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/AddTodoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CalculatorController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController$ColorRectCell.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/DashboardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/ExploreController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/InvoiceController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/MainController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/SettingController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/TodoListController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/button/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/button/menuButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/button/toggleButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/custom/calculator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/custom/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/field/textArea.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/field/textField.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/icons/glyphIcons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/label/desc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/label/text.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/list/listCell.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/list/listView.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/scrollBar/scrollBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/tab/tabPane.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/tab/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/table/tableColumn.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/table/tableView.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/themes/dark/dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/themes/dark/darkBlue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/themes/light/light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/css/themes/light/lightBlue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/customWidgets/CustomDialog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/database/Const.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/database/DBConnection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/dialogViews/tet.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/factory/ProductFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/helper/DragHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/helper/PathHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/helper/ViewHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/main/Sentence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/main/Store.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/main/WordIndexing.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/model/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/module-info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/query/ProductQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/addNewTodo.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/calculator.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/customer.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/explore.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/invoice.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/setting.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/StoreApp/view/todoList.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/colorPallates.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/configureTheme/Theme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/AddTodoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/CalculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/DashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/ExploreController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/InvoiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/SettingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/TodoListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/button/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/button/menuButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/button/toggleButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/custom/calculator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/custom/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/field/textArea.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/field/textField.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/icons/glyphIcons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/label/desc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/label/text.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/list/listCell.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/list/listView.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/scrollBar/scrollBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/tab/tabPane.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/tab/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/table/tableColumn.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/table/tableView.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/themes/dark/dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/themes/dark/darkBlue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/themes/light/light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/themes/light/lightBlue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customWidgets/CustomDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dialogViews/tet.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/ProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/DragHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/PathHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/ViewHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/query/ProductQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/addNewTodo.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/calculator.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/customer.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/explore.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/invoice.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/setting.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/todoList.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/menu/contextMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/menu/menuItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customWidgets/CustomListCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/CustomerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/Excel/WorkBook.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/ExportHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/query/CustomerQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StoreApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/configureTheme/Theme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/configureTheme/Theme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/CalculatorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CalculatorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController$ColorRectCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController$ColorRectCell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/ExploreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/ExploreController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/css/components/button/menuButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/button/menuButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/css/components/list/listCell.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/list/listCell.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/css/components/scrollBar/scrollBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/scrollBar/scrollBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/css/components/table/tableView.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/table/tableView.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/css/themes/dark/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/css/themes/dark/dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/css/themes/light/light.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/css/themes/light/light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/customWidgets/CustomDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/customWidgets/CustomDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/database/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/database/Const.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/dialogViews/tet.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/factory/ProductFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/factory/ProductFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/helper/PathHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/helper/PathHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/helper/ViewHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/helper/ViewHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/main/Sentence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/main/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/main/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/main/WordIndexing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/query/ProductQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/query/ProductQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/addNewTodo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/addNewTodo.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/calculator.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/calculator.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/explore.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/explore.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/invoice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/invoice.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/setting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/setting.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/todoList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/todoList.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ExploreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ExploreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/components/button/menuButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/button/menuButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/components/custom/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/custom/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/components/list/listCell.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/list/listCell.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/components/table/tableView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/table/tableView.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/themes/dark/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/themes/dark/dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/themes/light/light.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/themes/light/light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dialogViews/tet.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/dialogView/tet.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/ProductFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/PathHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/PathHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/ViewHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/ViewHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/query/ProductQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/query/ProductQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/explore.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/explore.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,8 +120,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="CSS File" />
         <option value="Enum" />
+        <option value="CSS File" />
         <option value="FxmlFile" />
         <option value="Class" />
       </list>
@@ -207,7 +139,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -314,15 +245,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
+    <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Libraries/AnimateFX-1.2.1.jar" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.23770492" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RebelAgentSelection">
@@ -339,6 +272,9 @@
       <recent name="E:\Software\StoreApp\src\css\themes\dark" />
       <recent name="E:\Software\StoreApp\src\css\components\button" />
       <recent name="E:\Software\StoreApp\src\css\themes" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="customWidgets" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -366,20 +302,6 @@
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
-      <module name="StoreApp" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="main.Store" />
@@ -409,7 +331,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordIndexing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ObjectUnion" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.ObjectUnion" />
+      <module name="StoreApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordIndexing" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.WordIndexing" />
       <module name="StoreApp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -429,15 +364,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -473,12 +406,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.WordIndexing" />
-        <item itemvalue="Application.Main (1)" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ObjectUnion" />
+      <item itemvalue="Application.WordIndexing" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -532,8 +464,29 @@
       <workItem from="1638570439528" duration="3489000" />
       <workItem from="1638533559334" duration="3356000" />
       <workItem from="1638583226134" duration="1330000" />
-      <workItem from="1638585079450" duration="2559000" />
+      <workItem from="1638585079450" duration="3666000" />
+      <workItem from="1638590896187" duration="544000" />
+      <workItem from="1638591604418" duration="1376000" />
+      <workItem from="1638593246239" duration="805000" />
+      <workItem from="1638599184653" duration="2084000" />
+      <workItem from="1638603210090" duration="6845000" />
+      <workItem from="1638619559923" duration="1581000" />
+      <workItem from="1638624448455" duration="2366000" />
+      <workItem from="1638626980044" duration="6811000" />
+      <workItem from="1638672521741" duration="132000" />
+      <workItem from="1638673166693" duration="1155000" />
+      <workItem from="1638674436375" duration="5126000" />
+      <workItem from="1638685561306" duration="488000" />
+      <workItem from="1638686202989" duration="19661000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1638587854466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638587854466</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

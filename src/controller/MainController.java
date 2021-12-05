@@ -62,17 +62,6 @@ public class MainController implements Initializable {
         settingBtn.setContentDisplay(display);
     }
 
-    private void uncheck() {
-        if (currentIndex != 0) dashboardBtn.setSelected(false);
-        if (currentIndex != 1) invoiceBtn.setSelected(false);
-        if (currentIndex != 2) exploreBtn.setSelected(false);
-        if (currentIndex != 3) customerBtn.setSelected(false);
-        if (currentIndex != 4) companyBtn.setSelected(false);
-        if (currentIndex != 5) todoBtn.setSelected(false);
-        if (currentIndex != 6) historyBtn.setSelected(false);
-        if (currentIndex != 7) settingBtn.setSelected(false);
-    }
-
     private void btnEvents() {
         dashboardBtn.setOnAction(e -> {
             try {
@@ -82,6 +71,9 @@ public class MainController implements Initializable {
             }
             currentIndex = 0;
             uncheck();
+            if (currentIndex == 0) {
+                dashboardBtn.setSelected(true);
+            }
         });
 
         invoiceBtn.setOnAction(e -> {
@@ -92,6 +84,9 @@ public class MainController implements Initializable {
             }
             currentIndex = 1;
             uncheck();
+            if (currentIndex == 1) {
+                invoiceBtn.setSelected(true);
+            }
         });
 
         exploreBtn.setOnAction(e -> {
@@ -102,6 +97,9 @@ public class MainController implements Initializable {
             }
             currentIndex = 2;
             uncheck();
+            if (currentIndex == 2) {
+                exploreBtn.setSelected(true);
+            }
         });
 
         customerBtn.setOnAction(e -> {
@@ -112,11 +110,17 @@ public class MainController implements Initializable {
             }
             currentIndex = 3;
             uncheck();
+            if (currentIndex == 3) {
+                customerBtn.setSelected(true);
+            }
         });
 
         companyBtn.setOnAction(e -> {
             currentIndex = 4;
             uncheck();
+            if (currentIndex == 4) {
+                companyBtn.setSelected(true);
+            }
         });
 
         todoBtn.setOnAction(e -> {
@@ -127,11 +131,17 @@ public class MainController implements Initializable {
             }
             currentIndex = 5;
             uncheck();
+            if (currentIndex == 5) {
+                todoBtn.setSelected(true);
+            }
         });
 
         historyBtn.setOnAction(e -> {
             currentIndex = 6;
             uncheck();
+            if (currentIndex == 6) {
+                historyBtn.setSelected(true);
+            }
         });
 
         settingBtn.setOnAction(e -> {
@@ -142,6 +152,9 @@ public class MainController implements Initializable {
             }
             currentIndex = 7;
             uncheck();
+            if (currentIndex == 7) {
+                settingBtn.setSelected(true);
+            }
         });
 
         menuBtn.setOnAction(e -> {
@@ -195,6 +208,17 @@ public class MainController implements Initializable {
             }
         });
 
+    }
+
+    private void uncheck() {
+        if (currentIndex != 0) dashboardBtn.setSelected(false);
+        if (currentIndex != 1) invoiceBtn.setSelected(false);
+        if (currentIndex != 2) exploreBtn.setSelected(false);
+        if (currentIndex != 3) customerBtn.setSelected(false);
+        if (currentIndex != 4) companyBtn.setSelected(false);
+        if (currentIndex != 5) todoBtn.setSelected(false);
+        if (currentIndex != 6) historyBtn.setSelected(false);
+        if (currentIndex != 7) settingBtn.setSelected(false);
     }
 
 }

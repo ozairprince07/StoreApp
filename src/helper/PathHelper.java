@@ -32,9 +32,18 @@ public class PathHelper {
     public static final String CALCULATOR_FILE = "/view/calculator.fxml";
 
     // ? ----------------------- Dialog Files Path ----------------------
-    public static final String TEST_FILE = "/dialogViews/tet.fxml";
+    public static final String TEST_FILE = "/dialogView/tet.fxml";
+
+    // ? ----------------------- Popup Files Path ----------------------
+    public static final String PRODUCT_FILTER_FILE = "/popupView/productFilter.fxml";
 
     // ? ----------------------- UI Files Path ----------------------
+
+    // ? ----------------------- Image Files Path ----------------------
+
+    public static final String CUSTOMER_IMAGE_FILE = "/resources/customer.png";
+
+    // ? ----------------------- Image Files Path ----------------------
 
     // * ==================================================================
 

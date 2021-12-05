@@ -38,6 +38,12 @@ public class ProductQuery {
                 " = '" + code + "' ";
     }
 
+    public static String deleteProduct(int id) {
+        return "DELETE FROM " + Const.TABLE_PRODUCT +
+                " WHERE " + Const.PRODUCT_ID +
+                " = '" + id + "' ";
+    }
+
     // * Product Details Query
 
     public static String insertProductDetails(int product_id, int supplier_id, LocalDateTime dateTime) {

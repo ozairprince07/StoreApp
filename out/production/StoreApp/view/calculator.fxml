@@ -1,68 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
-
-<AnchorPane prefHeight="500.0" prefWidth="400.0" stylesheets="@../css/components/custom/calculator.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CalculatorController">
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="500.0" prefWidth="400.0"
+            stylesheets="@../css/components/custom/calculator.css" xmlns="http://javafx.com/javafx/11.0.2"
+            fx:controller="controller.CalculatorController">
     <children>
-        <GridPane hgap="2.0" layoutX="90.0" layoutY="78.0" style="-fx-background-color: #333;" vgap="2.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <GridPane hgap="2.0" layoutX="90.0" layoutY="78.0" style="-fx-background-color: #333;" vgap="2.0"
+                  AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                  AnchorPane.topAnchor="0.0">
             <columnConstraints>
-                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
             </columnConstraints>
             <rowConstraints>
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
             </rowConstraints>
             <children>
-                <TextField fx:id="inputField" alignment="CENTER_RIGHT" editable="false" promptText="0" styleClass="calField" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.rowSpan="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#modOperation" prefWidth="116.0" styleClass="calFunBtn" text="\%" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="134.0" layoutY="138.0" mnemonicParsing="false" onAction="#facOperation" styleClass="calFunBtn" text="x!" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="138.0" mnemonicParsing="false" onAction="#clearField" styleClass="calFunBtn" text="C" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="backspace" alignment="CENTER" contentDisplay="CENTER" layoutX="410.0" layoutY="138.0" mnemonicParsing="false" onAction="#removeChar" styleClass="calFunBtn" text="&lt;-" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="509.0" layoutY="138.0" mnemonicParsing="false" onAction="#overOperation" styleClass="calFunBtn" text="1/x" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="263.0" mnemonicParsing="false" onAction="#sqrOperation" styleClass="calFunBtn" text="x^2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="263.0" mnemonicParsing="false" onAction="#sqrtOperation" styleClass="calFunBtn" text="2_/x" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="divide" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="263.0" mnemonicParsing="false" onAction="#divOperation" styleClass="calFunBtn" text="/" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="seven" alignment="CENTER" contentDisplay="CENTER" layoutX="460.0" layoutY="263.0" mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="7" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="eight" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="293.0" mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="8" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="nine" alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="293.0" mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="9" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="multiply" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="293.0" mnemonicParsing="false" onAction="#mulOperation" styleClass="calFunBtn" text="*" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="four" alignment="CENTER" contentDisplay="CENTER" layoutX="460.0" layoutY="293.0" mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="4" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="6" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="five" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="323.0" mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="5" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="6" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="six" alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="323.0" mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="6" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="6" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="minus" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="323.0" mnemonicParsing="false" onAction="#minOperation" styleClass="calFunBtn" text="-" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="6" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="one" alignment="CENTER" contentDisplay="CENTER" layoutX="460.0" layoutY="293.0" mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="7" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="two" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="323.0" mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="7" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="three" alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="323.0" mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="3" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="7" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="plus" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="323.0" mnemonicParsing="false" onAction="#addOperation" styleClass="calFunBtn" text="+" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="7" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="460.0" layoutY="323.0" mnemonicParsing="false" onAction="#negOperation" styleClass="calBtn" text="+/-" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="8" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="zero" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="353.0" mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="8" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="point" alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="353.0" mnemonicParsing="false" styleClass="calBtn" text="." GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="8" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-                <Button fx:id="equal" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="353.0" mnemonicParsing="false" onAction="#evalOperation" styleClass="calCalcBtn" text="=" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="8" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
-            <Label fx:id="prevLabel" alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="30.0" prefWidth="299.0" textFill="WHITE" GridPane.columnIndex="2" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER">
-               <font>
-                  <Font size="16.0" />
-               </font>
-               <GridPane.margin>
-                  <Insets />
-               </GridPane.margin>
-               <padding>
-                  <Insets right="20.0" />
-               </padding>
-            </Label>
-            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#alwaysOnTop" prefHeight="43.0" prefWidth="101.0" style="-fx-background-color: #555;" text="A_ON_TOP" textFill="WHITE" />
+                <TextField fx:id="inputField" alignment="CENTER_RIGHT" editable="false" promptText="0"
+                           styleClass="calField" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER"
+                           GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.rowSpan="2"
+                           GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#modOperation"
+                        prefWidth="116.0" styleClass="calFunBtn" text="\%" GridPane.halignment="CENTER"
+                        GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER"
+                        GridPane.vgrow="ALWAYS"/>
+                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="134.0" layoutY="138.0"
+                        mnemonicParsing="false" onAction="#facOperation" styleClass="calFunBtn" text="x!"
+                        GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="138.0"
+                        mnemonicParsing="false" onAction="#clearField" styleClass="calFunBtn" text="C"
+                        GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="backspace" alignment="CENTER" contentDisplay="CENTER" layoutX="410.0" layoutY="138.0"
+                        mnemonicParsing="false" onAction="#removeChar" styleClass="calFunBtn" text="&lt;-"
+                        GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="509.0" layoutY="138.0"
+                        mnemonicParsing="false" onAction="#overOperation" styleClass="calFunBtn" text="1/x"
+                        GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4"
+                        GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="263.0"
+                        mnemonicParsing="false" onAction="#sqrOperation" styleClass="calFunBtn" text="x^2"
+                        GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="263.0"
+                        mnemonicParsing="false" onAction="#sqrtOperation" styleClass="calFunBtn" text="2_/x"
+                        GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="divide" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="263.0"
+                        mnemonicParsing="false" onAction="#divOperation" styleClass="calFunBtn" text="/"
+                        GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="seven" alignment="CENTER" contentDisplay="CENTER" layoutX="460.0" layoutY="263.0"
+                        mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="7"
+                        GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5"
+                        GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="eight" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="293.0"
+                        mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="8"
+                        GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="5" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="nine" alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="293.0"
+                        mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="9"
+                        GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="5" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="multiply" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="293.0"
+                        mnemonicParsing="false" onAction="#mulOperation" styleClass="calFunBtn" text="*"
+                        GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="5" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="four" alignment="CENTER" contentDisplay="CENTER" layoutX="460.0" layoutY="293.0"
+                        mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="4"
+                        GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="6"
+                        GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="five" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="323.0"
+                        mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="5"
+                        GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="6" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="six" alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="323.0"
+                        mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="6"
+                        GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="6" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="minus" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="323.0"
+                        mnemonicParsing="false" onAction="#minOperation" styleClass="calFunBtn" text="-"
+                        GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="6" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="one" alignment="CENTER" contentDisplay="CENTER" layoutX="460.0" layoutY="293.0"
+                        mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="1"
+                        GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="7"
+                        GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="two" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="323.0"
+                        mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="2"
+                        GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="7" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="three" alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="323.0"
+                        mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="3"
+                        GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="7" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="plus" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="323.0"
+                        mnemonicParsing="false" onAction="#addOperation" styleClass="calFunBtn" text="+"
+                        GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="7" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="460.0" layoutY="323.0"
+                        mnemonicParsing="false" onAction="#negOperation" styleClass="calBtn" text="+/-"
+                        GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="8"
+                        GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="zero" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="353.0"
+                        mnemonicParsing="false" onAction="#getNumberBtnText" styleClass="calBtn" text="0"
+                        GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="8" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="point" alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="353.0"
+                        mnemonicParsing="false" styleClass="calBtn" text="." GridPane.columnIndex="2"
+                        GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="8"
+                        GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Button fx:id="equal" alignment="CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="353.0"
+                        mnemonicParsing="false" onAction="#evalOperation" styleClass="calCalcBtn" text="="
+                        GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS"
+                        GridPane.rowIndex="8" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS"/>
+                <Label fx:id="prevLabel" alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="30.0"
+                       prefWidth="299.0" textFill="WHITE" GridPane.columnIndex="2" GridPane.columnSpan="2147483647"
+                       GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER">
+                    <font>
+                        <Font size="16.0"/>
+                    </font>
+                    <GridPane.margin>
+                        <Insets/>
+                    </GridPane.margin>
+                    <padding>
+                        <Insets right="20.0"/>
+                    </padding>
+                </Label>
+                <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#alwaysOnTop"
+                        prefHeight="43.0" prefWidth="101.0" style="-fx-background-color: #555;" text="A_ON_TOP"
+                        textFill="WHITE"/>
             </children>
         </GridPane>
     </children>
