@@ -137,13 +137,8 @@ _Follow these simple steps to install the software and work with this project. _
    npm install
    ```
 4. Images Guide
-    [![Product Name Screen Shot][product-screenshot]](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theverge.com%2F2015%2F9%2F1%2F9239769%2Fnew-google-logo-announced&psig=AOvVaw3ZSSGBcIcBRielMMmkywaE&ust=1639087749446000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjH86qI1PQCFQAAAAAdAAAAABAD)
-    [![Product Name Screen Shot][product-screenshot]](https://example.com)
-    [![Product Name Screen Shot][product-screenshot]](https://example.com)
-    [![Product Name Screen Shot][product-screenshot]](https://example.com)
-    [![Product Name Screen Shot][product-screenshot]](https://example.com)
-    [![Product Name Screen Shot][product-screenshot]](https://example.com)
-    [![Product Name Screen Shot][product-screenshot]](https://example.com)
+    [![Download The Project From Github][product-shoot]](https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/photo-1498050108023-c5249f4df085.avif)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
