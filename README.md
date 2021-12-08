@@ -37,16 +37,6 @@
 
   <p align="center">
     An Awesome Project build with JavaFX.
-    
-    <!-- <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
   </p>
 </div>
 
@@ -85,32 +75,44 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This Awesome Project (#### StoreFX) is for simple store build with the JAVA Framework (JavaFX). May be its design is User Attractive. I make this Project as simple as I could. Many features are added to this project as beginning. Some of the features are listed below:
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Project Features:
+* Multiuser User (Admin, Non-Admin)
+* Company Managment
+* Supplier Managment
+* Product with multiple units
+* Barcode Supported
+* Online Database
+* Customer Emails, Messages, Calls and Whatsapp will be introduced
+* Hourly, Daily, Weekly, Monthly and Yearly income traker and gain & lose tracker
+* Histroy of all the time with undo features 
+* Multi Themed app about 20+ themes
+* Custom Data Import and Export 
+* Complete Database Import and Export
+* Daily Backup of Database
+* Complete Todo List App in this Project
+* Contacts Managmnet
+* Banks Support will be introduced
+* Other account support like JazzCash, EasyPaisa etc
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+Of course, Some of the features are no available in this project right now. But soon, these features will be added to it. If anyone is interested in this project, you can download and introduce these features and send it to that email: ozairprince07@gmail.com. I will permit you to update my pproject at github, if I like this one. Thanks for this discussion.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section will give you the information for the major frameworks/libraries used to bootstrap this project. Here are some libraries used in that project.
 
-* [openjfx](https://nextjs.org/)
-* [controlsfx](https://reactjs.org/)
-* [mysql-connector](https://vuejs.org/)
-* [FontawesomeFX](https://angular.io/)
-* [HSSF](https://svelte.dev/)
-* [AnimateFX](https://laravel.com)
-* [](https://getbootstrap.com)
+* [Java Language](https://java.org/)
+* [JavaFX Framewrok](https://reactjs.org/)
+* [openjfx-17.0.1](https://vuejs.org/)
+* [ControlsFX.jar](https://angular.io/)
+* [JFoenix.jar](https://svelte.dev/)
+* [Animatefx.jar](https://laravel.com)
+* [poi.jar](https://getbootstrap.com)
+* [mysql-connector.jar](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -119,12 +121,11 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Here are some instructions to get started with this project. Follow these steps to build this project in your own machine.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Here is the command to install the project in your machine.
 * npm
   ```sh
   npm install npm@latest -g
@@ -132,12 +133,12 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Follow these simple steps to install the software and work with this project. _
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/ozairprince07/StoreApp.git
    ```
 3. Install NPM packages
    ```sh
@@ -145,7 +146,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 4. Enter your API in `config.js`
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   const API_KEY = '+refs/heads/*:refs/remotes/origin/*';
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -155,9 +156,14 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Here are some examples to downlaod and build this project in your own machine. Some of the recommended requirements to use this project are:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+## Requirements
+
+1. Intelij IDEA Ultimate 21.3 
+2. Scene Builder for User Interface Designing
+3. Mysql Cluster Community Server - GPL (Ver 8.0.26-cluster)
+4. Mysql Workbench for database managemnt
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -170,9 +176,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [x] Add back to top links
 - [ ] Add Additional Templates w/ Examples
 - [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
