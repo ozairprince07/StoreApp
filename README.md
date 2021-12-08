@@ -75,7 +75,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This Awesome Project (#### StoreFX) is for simple store build with the JAVA Framework (JavaFX). May be its design is User Attractive. I make this Project as simple as I could. Many features are added to this project as beginning. Some of the features are listed below:
+This Awesome Project (StoreFX) is for simple store application build with the JAVA Framework (JavaFX). May be its design is User Attractive. I make this Project as simple as I could. Many features are added to this project as beginning. Some of the features are listed below:
 
 Project Features:
 * Multiuser User (Admin, Non-Admin)
@@ -106,13 +106,14 @@ Of course, Some of the features are no available in this project right now. But 
 This section will give you the information for the major frameworks/libraries used to bootstrap this project. Here are some libraries used in that project.
 
 * [Java Language](https://java.org/)
-* [JavaFX Framewrok](https://reactjs.org/)
-* [openjfx-17.0.1](https://vuejs.org/)
-* [ControlsFX.jar](https://angular.io/)
-* [JFoenix.jar](https://svelte.dev/)
-* [Animatefx.jar](https://laravel.com)
-* [poi.jar](https://getbootstrap.com)
-* [mysql-connector.jar](https://jquery.com)
+* [JavaFX Framewrok](https://openjfx.io/)
+* [openjfx-17.0.1](https://openjfx.io/)
+* [ControlsFX.jar](https://controlsfx.github.io/)
+* [JFoenix.jar](http://www.jfoenix.com/)
+* [FontAwesomeFX-8.1](https://bitbucket.org/Jerady/fontawesomefx/downloads/)
+* [Animatefx.jar](https://github.com/Typhon0/AnimateFX)
+* [poi.jar](https://jar-download.com/artifacts/org.apache.poi)
+* [mysql-connector.jar](https://jar-download.com/artifacts/mysql/mysql-connector-java)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -123,20 +124,11 @@ This section will give you the information for the major frameworks/libraries us
 
 Here are some instructions to get started with this project. Follow these steps to build this project in your own machine.
 
-### Prerequisites
-
-Here is the command to install the project in your machine.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
 _Follow these simple steps to install the software and work with this project. _
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/ozairprince07/StoreApp.git
    ```
@@ -144,10 +136,14 @@ _Follow these simple steps to install the software and work with this project. _
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = '+refs/heads/*:refs/remotes/origin/*';
-   ```
+4. Images Guide
+    [![Product Name Screen Shot][product-screenshot]](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theverge.com%2F2015%2F9%2F1%2F9239769%2Fnew-google-logo-announced&psig=AOvVaw3ZSSGBcIcBRielMMmkywaE&ust=1639087749446000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjH86qI1PQCFQAAAAAdAAAAABAD)
+    [![Product Name Screen Shot][product-screenshot]](https://example.com)
+    [![Product Name Screen Shot][product-screenshot]](https://example.com)
+    [![Product Name Screen Shot][product-screenshot]](https://example.com)
+    [![Product Name Screen Shot][product-screenshot]](https://example.com)
+    [![Product Name Screen Shot][product-screenshot]](https://example.com)
+    [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
