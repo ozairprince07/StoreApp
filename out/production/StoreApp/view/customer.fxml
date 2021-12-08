@@ -1,113 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
-<?import java.net.URL?>
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ListView?>
-<?import javafx.scene.control.TextField?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.text.Font?>
-
-<BorderPane prefHeight="600.0" prefWidth="800.0" styleClass="back" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerController">
+<?import java.net.URL?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="600.0" prefWidth="800.0" styleClass="back"
+            xmlns="http://javafx.com/javafx/17" fx:controller="controller.CustomerController">
    <left>
       <VBox alignment="TOP_CENTER" styleClass="main" BorderPane.alignment="CENTER">
          <BorderPane.margin>
-            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
          </BorderPane.margin>
          <children>
             <AnchorPane>
                <children>
-                  <TextField fx:id="searchField" prefHeight="32.0" promptText="Search Customer" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <TextField fx:id="searchField" prefHeight="32.0" promptText="Search Customer"
+                             AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                             AnchorPane.topAnchor="0.0">
                      <padding>
-                        <Insets left="30.0" right="30.0" />
+                        <Insets left="30.0" right="30.0"/>
                      </padding>
                   </TextField>
-                  <FontAwesomeIcon iconName="SEARCH" layoutX="8.0" layoutY="20.0" styleClass="glyph-icon" AnchorPane.bottomAnchor="10.142857551574707" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="8.857142448425293" />
+                  <FontAwesomeIcon iconName="SEARCH" layoutX="8.0" layoutY="20.0" styleClass="glyph-icon"
+                                   AnchorPane.bottomAnchor="10.142857551574707" AnchorPane.leftAnchor="8.0"
+                                   AnchorPane.topAnchor="8.857142448425293"/>
                </children>
             </AnchorPane>
             <AnchorPane VBox.vgrow="ALWAYS">
                <VBox.margin>
-                  <Insets top="10.0" />
+                  <Insets top="10.0"/>
                </VBox.margin>
                <children>
-                  <ListView fx:id="listView" prefWidth="270.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                  <Button graphicTextGap="10.0" layoutX="196.0" layoutY="478.0" mnemonicParsing="false" styleClass="coloredButton" text="Add Customer" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0">
+                  <ListView fx:id="listView" prefWidth="270.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                            AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"/>
+                  <Button graphicTextGap="10.0" layoutX="196.0" layoutY="478.0" mnemonicParsing="false"
+                          styleClass="coloredButton" text="Add Customer" AnchorPane.bottomAnchor="15.0"
+                          AnchorPane.rightAnchor="15.0">
                      <graphic>
-                        <FontAwesomeIcon iconName="PLUS" size="1.2em" styleClass="glyph-icon" />
+                        <FontAwesomeIcon iconName="PLUS" size="1.2em" styleClass="glyph-icon"/>
                      </graphic>
                      <padding>
-                        <Insets left="15.0" right="15.0" />
+                        <Insets left="15.0" right="15.0"/>
                      </padding>
                   </Button>
                </children>
             </AnchorPane>
          </children>
          <padding>
-            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
          </padding>
       </VBox>
    </left>
    <center>
       <AnchorPane styleClass="back" BorderPane.alignment="CENTER">
          <children>
-            <HBox alignment="CENTER_LEFT" layoutX="25.0" layoutY="107.0" spacing="20.0" styleClass="front" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
+            <HBox alignment="CENTER_LEFT" layoutX="25.0" layoutY="107.0" spacing="20.0" styleClass="front"
+                  AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
                <children>
-                  <ImageView fx:id="customerImageView" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="customerImageView" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true"
+                             preserveRatio="true"/>
                   <VBox alignment="CENTER_LEFT" spacing="5.0" HBox.hgrow="ALWAYS">
                      <children>
                         <Label fx:id="nameLabel" text="Name">
                            <font>
-                              <Font size="20.0" />
+                              <Font size="20.0"/>
                            </font>
                         </Label>
                         <HBox spacing="20.0">
                            <children>
                               <Label fx:id="phoneLabel" text="Phone" HBox.hgrow="ALWAYS">
                                  <font>
-                                    <Font size="18.0" />
+                                    <Font size="18.0"/>
                                  </font>
                               </Label>
-                              <Label fx:id="whatsappLabel" layoutX="10.0" layoutY="10.0" text="Phone" HBox.hgrow="ALWAYS">
+                              <Label fx:id="whatsappLabel" layoutX="10.0" layoutY="10.0" text="Phone"
+                                     HBox.hgrow="ALWAYS">
                                  <font>
-                                    <Font size="18.0" />
+                                    <Font size="18.0"/>
                                  </font>
                               </Label>
                            </children>
                         </HBox>
                         <Label fx:id="addressLabel" layoutX="10.0" layoutY="39.0" text="Address">
                            <font>
-                              <Font size="16.0" />
+                              <Font size="16.0"/>
                            </font>
                         </Label>
                      </children>
                   </VBox>
                </children>
                <padding>
-                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
                </padding>
             </HBox>
-            <HBox alignment="CENTER" layoutX="87.0" layoutY="486.0" spacing="10.0" styleClass="back" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <HBox alignment="CENTER" layoutX="87.0" layoutY="486.0" spacing="10.0" styleClass="back"
+                  AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="64.0" text="Button" />
-                  <Button layoutX="265.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="64.0" text="Button" />
-                  <Button layoutX="297.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="64.0" text="Button" />
-                  <Button layoutX="329.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="64.0" text="Button" />
+                  <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="64.0" text="Button"/>
+                  <Button layoutX="265.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="64.0"
+                          text="Button"/>
+                  <Button layoutX="297.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="64.0"
+                          text="Button"/>
+                  <Button layoutX="329.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="64.0"
+                          text="Button"/>
                </children>
             </HBox>
          </children>
          <BorderPane.margin>
-            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
          </BorderPane.margin>
       </AnchorPane>
    </center>
    <stylesheets>
-      <URL value="@../css/components/custom/custom.css" />
-      <URL value="@../css/components/icons/glyphIcons.css" />
+      <URL value="@../css/components/custom/custom.css"/>
+      <URL value="@../css/components/icons/glyphIcons.css"/>
    </stylesheets>
 </BorderPane>

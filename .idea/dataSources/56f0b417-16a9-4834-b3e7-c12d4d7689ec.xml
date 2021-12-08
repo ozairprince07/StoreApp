@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="Inventory@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.21">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.23">
     <root id="1">
       <ServerVersion>8.0.26</ServerVersion>
       <Grants>|root||debian-sys-maint|localhost|ALTER|G

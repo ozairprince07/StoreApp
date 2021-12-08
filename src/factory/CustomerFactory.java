@@ -1,6 +1,5 @@
 package factory;
 
-import customWidgets.CustomListCell;
 import database.Const;
 import database.DBConnection;
 import helper.PathHelper;
@@ -14,7 +13,6 @@ import javafx.scene.image.ImageView;
 import javafx.util.Callback;
 import model.Customer;
 import query.CustomerQuery;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
 

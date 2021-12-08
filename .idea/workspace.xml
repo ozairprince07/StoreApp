@@ -2,70 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/css/components/menu/contextMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/menu/menuItem.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customWidgets/CustomListCell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/CustomerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/Excel/WorkBook.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/ExportHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/query/CustomerQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StoreApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StoreApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/configureTheme/Theme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/configureTheme/Theme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/CalculatorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CalculatorController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController$ColorRectCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController$ColorRectCell.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/ExploreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/ExploreController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/css/components/button/menuButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/button/menuButton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/css/components/list/listCell.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/list/listCell.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/css/components/scrollBar/scrollBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/scrollBar/scrollBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/css/components/table/tableView.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/css/components/table/tableView.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/css/themes/dark/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/css/themes/dark/dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/css/themes/light/light.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/css/themes/light/light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/customWidgets/CustomDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/customWidgets/CustomDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/database/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/database/Const.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/dialogViews/tet.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StoreApp/factory/ProductFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/factory/ProductFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/helper/PathHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/helper/PathHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StoreApp/helper/ViewHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/helper/ViewHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/main/Sentence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/main/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/main/Store.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/main/WordIndexing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/model/Product.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StoreApp/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/query/ProductQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/query/ProductQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/addNewTodo.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/addNewTodo.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/calculator.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/calculator.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/customer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/dashboard.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/explore.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/explore.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/invoice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/invoice.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/setting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/setting.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/todoList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/todoList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ExploreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ExploreController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/components/button/menuButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/button/menuButton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/components/custom/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/custom/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/components/list/listCell.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/list/listCell.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/components/table/tableView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/table/tableView.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/themes/dark/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/themes/dark/dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/themes/light/light.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/themes/light/light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dialogViews/tet.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/dialogView/tet.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factory/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/ProductFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper/PathHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/PathHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper/ViewHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/ViewHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/query/ProductQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/query/ProductQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/customer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/explore.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/explore.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/CustomerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/CustomerFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,11 +106,11 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/helper/PathHelper.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/controller/MainController.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/view/main.fxml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/css/themes/dark/dark.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/configureTheme/Theme.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/helper/PathHelper.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/controller/MainController.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -248,7 +197,7 @@
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
     <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Libraries/AnimateFX-1.2.1.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Libraries/poi-3.7.jar" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -262,6 +211,9 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="factory" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Software\StoreApp\src\main" />
       <recent name="$PROJECT_DIR$/src" />
@@ -274,6 +226,9 @@
       <recent name="E:\Software\StoreApp\src\css\themes" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="customWidgets" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="customWidgets" />
     </key>
   </component>
@@ -467,6 +422,8 @@
       <workItem from="1638674436375" duration="5126000" />
       <workItem from="1638685561306" duration="488000" />
       <workItem from="1638686202989" duration="19661000" />
+      <workItem from="1638706942371" duration="1629000" />
+      <workItem from="1638809599801" duration="690000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1638587854466</created>
@@ -475,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638587854466</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1638707036703</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638707036703</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
