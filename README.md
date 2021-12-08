@@ -137,7 +137,8 @@ _Follow these simple steps to install the software and work with this project. _
    npm install
    ```
 4. Images Guide
-    [![Download The Project From Github][product-shoot]](https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/photo-1498050108023-c5249f4df085.avif)
+
+   * [![Download The Project From Github][product-shoot]](https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/photo1498050108023-c5249f4df085.avif)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
