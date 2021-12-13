@@ -53,7 +53,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://raw.githubusercontent.com/uzairdev07/resources/main/Images/StoreApp/interface/app.png?token=AO22IKM4U4RVWVIQW6R6QNDBW3A4S)
 
 This Awesome Project (StoreFX) is for simple store application build with the JAVA Framework (JavaFX). May be its design is User Attractive. I make this Project as simple as I could. Many features are added to this project as beginning. Some of the features are listed below:
 
