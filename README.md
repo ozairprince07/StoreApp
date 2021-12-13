@@ -12,9 +12,9 @@
 <div align="center">
   <a href="https://github.com/uzairdev07/StoreApp">
     <img src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/000000/external-shop-ecommerce-icongeek26-linear-colour-icongeek26.png"/>
-  </a>
+  </a> 
 
-  <h3 align="center">👍👉StoreFX😉🤗</h3>
+<h3 align="center">👍👉StoreFX😉🤗</h3>
 
   <p align="center">
     An Awesome Project build with JavaFX.
@@ -34,11 +34,11 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#requirements">Requirements</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -53,31 +53,37 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://raw.githubusercontent.com/uzairdev07/resources/main/Images/StoreApp/interface/app.png?token=AO22IKM4U4RVWVIQW6R6QNDBW3A4S)
+[Product Name Screen Shot](https://raw.githubusercontent.com/uzairdev07/resources/main/Images/StoreApp/db.png?token=AO22IKMT5ZJ3BWIAM35FSZDBWF3B6)
+<img src="https://raw.githubusercontent.com/uzairdev07/resources/main/Images/StoreApp/db.png?token=AO22IKMT5ZJ3BWIAM35FSZDBWF3B6" />
 
-This Awesome Project (StoreFX) is for simple store application build with the JAVA Framework (JavaFX). May be its design is User Attractive. I make this Project as simple as I could. Many features are added to this project as beginning. Some of the features are listed below:
+This Awesome Project (StoreFX) is for simple store application build with the JAVA Framework (JavaFX). Maybe its design
+is User Attractive. I make this Project as simple as I could. Many features are added to this project as beginning. Some
+features are listed below:
 
 Project Features:
 
 - Multiuser User (Admin, Non-Admin)
-- Company Managment
-- Supplier Managment
+- Company Management
+- Supplier Management
 - Product with multiple units
 - Barcode Supported
 - Online Database
 - Customer Emails, Messages, Calls and Whatsapp will be introduced
-- Hourly, Daily, Weekly, Monthly and Yearly income traker and gain & lose tracker
-- Histroy of all the time with undo features
+- Hourly, Daily, Weekly, Monthly and Yearly income tracker and gain & lose tracker
+- History of all the time with undo features
 - Multi Themed app about 20+ themes
 - Custom Data Import and Export
 - Complete Database Import and Export
 - Daily Backup of Database
 - Complete Todo List App in this Project
-- Contacts Managmnet
+- Contacts Management
 - Banks Support will be introduced
 - Other account support like JazzCash, EasyPaisa etc
 
-Of course, Some of the features are no available in this project right now. But soon, these features will be added to it. If anyone is interested in this project, you can download and introduce these features and send it to that email: ozairprince07@gmail.com. I will permit you to update my pproject at github, if I like this one. Thanks for this discussion.
+Of course, Some features are not available in this project right now. But soon, these features will be added to it. If
+anyone is interested in this project, you can download and introduce these features and send it to that email:
+ozairprince07@gmail.com. I will permit you to update my project at GitHub, if I like this one. Thanks for this
+discussion.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -85,15 +91,16 @@ Of course, Some of the features are no available in this project right now. But 
 
 ### Built With
 
-This section will give you the information for the major frameworks/libraries used to bootstrap this project. Here are some libraries used in that project.
+This section will give you the information for the major frameworks/libraries used to bootstrap this project. Here are
+some libraries used in that project.
 
 - [Java Language](https://java.org/)
-- [JavaFX Framewrok](https://openjfx.io/)
+- [JavaFX Framework](https://openjfx.io/)
 - [openjfx-17.0.1](https://openjfx.io/)
 - [ControlsFX.jar](https://controlsfx.github.io/)
 - [JFoenix.jar](http://www.jfoenix.com/)
 - [FontAwesomeFX-8.1](https://bitbucket.org/Jerady/fontawesomefx/downloads/)
-- [Animatefx.jar](https://github.com/Typhon0/AnimateFX)
+- [AnimateFX.jar](https://github.com/Typhon0/AnimateFX)
 - [poi.jar](https://jar-download.com/artifacts/org.apache.poi)
 - [mysql-connector.jar](https://jar-download.com/artifacts/mysql/mysql-connector-java)
 
@@ -101,67 +108,134 @@ This section will give you the information for the major frameworks/libraries us
 
 <!-- GETTING STARTED -->
 
+<div id="getting-started"></div>
+
 ## Getting Started
 
-## Here are some instructions to get started with this project. Follow these steps to build this project in your own machine.
-
-### Installation
-
-_Follow these simple steps to install the software and work with this project. _
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/ozairprince07/StoreApp.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-3. Install Guide
-
-<div align="center">
-    <img src="https://images.unsplash.com/photo-1633114127408-af671c774b39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"/>
-</div>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+## Here are some instructions to get started with this project. Follow these steps to build this project in your own machine
 
 <!-- USAGE EXAMPLES -->
 
+<div id="usage"></div>
+
 ## Usage
 
-Here are some examples to downlaod and build this project in your own machine. Some of the recommended requirements to use this project are:
+Here are some examples to download and build this project in your own machine. Some recommended requirements to use this
+project are:
+
+<div id="requirements"></div>
 
 ## Requirements
 
-1. [Intelij IDEA Ultimate 21.3](https://www.jetbrains.com/idea/download/) | [Intelij IDEA Community 21.3](https://www.jetbrains.com/idea/download/)
+1. [IntelliJ IDEA Ultimate 21.3](https://www.jetbrains.com/idea/download/)
+   | [IntelliJ IDEA Community 21.3](https://www.jetbrains.com/idea/download/)
 2. [Scene Builder for User Interface Designing](https://gluonhq.com/products/scene-builder/)
 3. [Mysql Cluster Community Server - GPL (Ver 8.0.26-cluster)](https://dev.mysql.com/downloads/mysql/)
 4. [Mysql Server Installer](https://dev.mysql.com/downloads/installer/)
-5. [Mysql Workbench for database managemnt](https://dev.mysql.com/downloads/workbench/)
+5. [Mysql Workbench for database management](https://dev.mysql.com/downloads/workbench/)
+
+<div id="installation"></div>
+
+### Installation
+
+_Follow these simple steps to install the software and work with this project._
+
+1. Clone the repo
+
+   ```sh
+   git clone https://github.com/ozairprince07/StoreApp.git
+   ```
+
+2. Install NPM packages
+
+   ```sh
+   npm install
+   ```
+
+3. Install Guide
+
+### IntelliJ Configuration 
+
+[Open the IntelliJ IDEA]()
+<img src="/home/uzair/Desktop/images/setup/libsSetup/openIDEA.png" />
+
+[Open Main File]()
+<img src="/home/uzair/Desktop/images/setup/libsSetup/openMainFile.png" />
+
+[Navigate to Project Structure]()
+<img src="/home/uzair/Desktop/images/setup/libsSetup/openProjectStructure.png" />
+
+[Open Globule Libraries]()
+<img src="/home/uzair/Desktop/images/setup/libsSetup/openGlobleLibs.png" />
+
+[CLick to Add Icon]()
+<img src="/home/uzair/Desktop/images/setup/libsSetup/addNewLib.png" />
+
+[Select Java Library]()
+<img src="/home/uzair/Desktop/images/setup/libsSetup/selectJava.png" />
+
+[Navigate to Libraries Directory]()
+<img src="/home/uzair/Desktop/images/setup/libsSetup/selectLibsDir.png" />
+
+[Add to Modules]()
+<img src="/home/uzair/Desktop/images/setup/libsSetup/selectTheModule.png" />
+
+### Configure Database
+
+[Open your Favourite Database Server]()
+<img src="/home/uzair/Desktop/images/setup/database/openLocalHost.png" />
+
+[Select Import Tab]()
+<img src="/home/uzair/Desktop/images/setup/database/clickImport.png" />
+
+[Choose Sql File]()
+<img src="/home/uzair/Desktop/images/setup/database/chooseSqlFile.png" />
+
+[Navigate to Sql File]()
+<img src="/home/uzair/Desktop/images/setup/database/selectSQLFile.png" />
+
+[Click Go Button]()
+<img src="/home/uzair/Desktop/images/setup/database/clickGo.png" />
+
+### Database Source File Config
+
+[Navigate to DBConnection File]()
+<img src="/home/uzair/Desktop/images/setup/dbConfig/openFile.png" />
+
+[Save Changes]()
+<img src="/home/uzair/Desktop/images/setup/dbConfig/saveSettings.png" />
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 
+<div id="roadmap"></div>
+
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
+- [ ] Add Changelog
+- [ ] Add back to top links
 - [ ] Add Additional Templates w/ Examples
 - [ ] Add "components" document to easily copy & paste sections of the readme
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (
+and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
+<div id="contributing"></div>
+
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any
+contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also
+simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -173,6 +247,8 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- LICENSE -->
 
+<div id="license"></div>
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
@@ -180,6 +256,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
+
+<div id="contact"></div>
 
 ## Contact
 
@@ -191,9 +269,12 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <!-- ACKNOWLEDGMENTS -->
 
+<div id="acknowledgments"></div>
+
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites
+to kick things off!
 
 - [Choose an Open Source License](https://choosealicense.com)
 - [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
@@ -210,15 +291,27 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
 [linkedin-url]: https://linkedin.com/in/othneildrew
+
 [product-screenshot]: images/screenshot.png
