@@ -263,9 +263,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [@gmail](https://gmail.com) - ozairprince07@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/uzairdev07/StoreApp](https://github.com/uzairdev07/StoreApp)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
