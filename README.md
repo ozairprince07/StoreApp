@@ -202,10 +202,10 @@ _Follow these simple steps to install the software and work with this project._
 ### Database Source File Config
 
 [Navigate to DBConnection File]()
-<img src="/home/uzair/Desktop/images/setup/dbConfig/openFile.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/dbConfig/openFile.png" />
 
 [Save Changes]()
-<img src="/home/uzair/Desktop/images/setup/dbConfig/saveSettings.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/dbConfig/saveSettings.png" />
 
 
 
