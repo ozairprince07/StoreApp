@@ -159,45 +159,45 @@ _Follow these simple steps to install the software and work with this project._
 ### IntelliJ Configuration 
 
 [Open the IntelliJ IDEA]()
-<img src="/home/uzair/Desktop/images/setup/libsSetup/openIDEA.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/libsSetup/openIDEA.png" />
 
 [Open Main File]()
-<img src="/home/uzair/Desktop/images/setup/libsSetup/openMainFile.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/libsSetup/openMainFile.png" />
 
 [Navigate to Project Structure]()
-<img src="/home/uzair/Desktop/images/setup/libsSetup/openProjectStructure.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/libsSetup/openProjectStructure.png" />
 
 [Open Globule Libraries]()
-<img src="/home/uzair/Desktop/images/setup/libsSetup/openGlobleLibs.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/libsSetup/openGlobleLibs.png" />
 
 [CLick to Add Icon]()
-<img src="/home/uzair/Desktop/images/setup/libsSetup/addNewLib.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/libsSetup/addNewLib.png" />
 
 [Select Java Library]()
-<img src="/home/uzair/Desktop/images/setup/libsSetup/selectJava.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/libsSetup/selectJava.png" />
 
 [Navigate to Libraries Directory]()
-<img src="/home/uzair/Desktop/images/setup/libsSetup/selectLibsDir.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/libsSetup/selectLibsDir.png" />
 
 [Add to Modules]()
-<img src="/home/uzair/Desktop/images/setup/libsSetup/selectTheModule.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/libsSetup/selectTheModule.png" />
 
 ### Configure Database
 
 [Open your Favourite Database Server]()
-<img src="/home/uzair/Desktop/images/setup/database/openLocalHost.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/database/openLocalHost.png" />
 
 [Select Import Tab]()
-<img src="/home/uzair/Desktop/images/setup/database/clickImport.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/database/clickImport.png" />
 
 [Choose Sql File]()
-<img src="/home/uzair/Desktop/images/setup/database/chooseSqlFile.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/database/chooseSqlFile.png" />
 
 [Navigate to Sql File]()
-<img src="/home/uzair/Desktop/images/setup/database/selectSQLFile.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/database/selectSQLFile.png" />
 
 [Click Go Button]()
-<img src="/home/uzair/Desktop/images/setup/database/clickGo.png" />
+<img src="https://github.com/uzairdev07/resources/blob/main/Images/StoreApp/setup/database/clickGo.png" />
 
 ### Database Source File Config
 
