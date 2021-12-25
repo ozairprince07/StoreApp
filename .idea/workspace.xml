@@ -1,52 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/controller/AddItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/CompanyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/components/menu/comboBox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customWidgets/CompanyListCell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customWidgets/InputFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dialogView/addItem.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/CompanyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factory/InvoiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/query/CompanyQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/company.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Update README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController$ColorRectCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController$ColorRectCell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/InvoiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/InvoiceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/database/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/database/Const.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/helper/PathHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/helper/PathHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/customer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/invoice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/invoice.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/InvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/InvoiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customWidgets/CustomListCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/customWidgets/CustomerListCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factory/CustomerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/CustomerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factory/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/ProductFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/files/Excel/WorkBook.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/Excel/WorkBook.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper/PathHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/PathHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/query/CustomerQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/query/CustomerQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/customer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/invoice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/invoice.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -492,7 +449,7 @@
       <workItem from="1640330131569" duration="140000" />
       <workItem from="1640349863703" duration="414000" />
       <workItem from="1640396773296" duration="10000" />
-      <workItem from="1640404179029" duration="61000" />
+      <workItem from="1640404179029" duration="326000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1638587854466</created>
@@ -515,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638930835496</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update README.md">
+      <created>1640404400279</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640404400280</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -576,7 +540,8 @@
     <MESSAGE value="initial Commit" />
     <MESSAGE value="Database Commit" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
