@@ -12,7 +12,6 @@ public class CustomerQuery {
             String name,
             String address,
             String phone,
-            String whatsapp,
             double creditLimit,
             double debitLimit
     ) {
@@ -20,10 +19,9 @@ public class CustomerQuery {
                 " (" + Const.CUSTOMER_NAME + ", " +
                 Const.CUSTOMER_ADDRESS + ", " +
                 Const.CUSTOMER_PHONE + ", " +
-                Const.CUSTOMER_WHATSAPP + ", " +
                 Const.CUSTOMER_CREDIT_LIMIT + ", " +
                 Const.CUSTOMER_DEBIT_LIMIT +
-                ") VALUES ('" + name + "', '" + address + "', '" + phone + "', '" + whatsapp + "', " + creditLimit + ", " + debitLimit + ") ";
+                ") VALUES ('" + name + "', '" + address + "', '" + phone + "', " + creditLimit + ", " + debitLimit + ") ";
     }
 
     public static String deleteCustomer(int customerId) {

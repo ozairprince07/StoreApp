@@ -25,6 +25,7 @@ public class PathHelper {
     public static final String INVOICE_FILE = "/view/invoice.fxml";
     public static final String EXPLORE_FILE = "/view/explore.fxml";
     public static final String CUSTOMER_FILE = "/view/customer.fxml";
+    public static final String COMPANY_FILE = "/view/company.fxml";
     public static final String TODOAPP_FILE = "/view/todoList.fxml";
     public static final String SETTING_FILE = "/view/setting.fxml";
 
@@ -33,6 +34,7 @@ public class PathHelper {
 
     // ? ----------------------- Dialog Files Path ----------------------
     public static final String TEST_FILE = "/dialogView/tet.fxml";
+    public static final String ADD_ITEM_FILE = "/dialogView/addItem.fxml";
 
     // ? ----------------------- Popup Files Path ----------------------
     public static final String PRODUCT_FILTER_FILE = "/popupView/productFilter.fxml";

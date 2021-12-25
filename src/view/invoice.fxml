@@ -4,8 +4,8 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17"
-            fx:controller="controller.InvoiceController">
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="600.0" prefWidth="800.0"
+            xmlns="http://javafx.com/javafx/11.0.2" fx:controller="controller.InvoiceController">
    <children>
       <TabPane layoutY="72.0" tabClosingPolicy="UNAVAILABLE" tabMaxHeight="30.0" tabMaxWidth="200.0" tabMinHeight="30.0"
                tabMinWidth="200.0" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="15.0"
@@ -20,15 +20,13 @@
                               AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0">
                            <children>
                               <Label text="Invoice To"/>
-                              <TextField prefHeight="25.0" prefWidth="250.0" promptText="Select Customer">
-                                 <padding>
-                                    <Insets left="15.0"/>
-                                 </padding>
-                              </TextField>
+                              <ComboBox fx:id="customerField" editable="true" prefHeight="26.0" prefWidth="200.0"
+                                        promptText="Select Customer"/>
                               <HBox alignment="CENTER_RIGHT" styleClass="back" HBox.hgrow="ALWAYS">
                                  <children>
-                                    <Button alignment="CENTER" mnemonicParsing="false" prefHeight="25.0"
-                                            prefWidth="88.0" text="Add Item"/>
+                                    <Button fx:id="addItemBtn" alignment="CENTER" mnemonicParsing="false"
+                                            onAction="#addItemBtnAction" prefHeight="25.0" prefWidth="88.0"
+                                            text="Add Item"/>
                                  </children>
                                  <HBox.margin>
                                     <Insets/>

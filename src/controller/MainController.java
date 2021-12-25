@@ -116,6 +116,11 @@ public class MainController implements Initializable {
         });
 
         companyBtn.setOnAction(e -> {
+            try {
+                viewHelper.loadFxml(borderPane, PathHelper.COMPANY_FILE);
+            } catch (IOException ioException) {
+                ioException.printStackTrace();
+            }
             currentIndex = 4;
             uncheck();
             if (currentIndex == 4) {

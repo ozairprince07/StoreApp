@@ -1,5 +1,6 @@
 package factory;
 
+import customWidgets.CustomerListCell;
 import database.Const;
 import database.DBConnection;
 import helper.PathHelper;
@@ -7,12 +8,15 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
-import javafx.scene.control.*;
+import javafx.scene.control.ListCell;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.util.Callback;
 import model.Customer;
 import query.CustomerQuery;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
@@ -26,13 +30,12 @@ public class CustomerFactory {
 
     }
 
-    public void addCustomer(TextField name, TextArea address, TextField phone, TextField whatsapp, TextField creditLimit, TextField debitLimit) throws SQLException {
+    public void addCustomer(TextField name, TextField address, TextField phone, TextField creditLimit, TextField debitLimit) throws SQLException {
         DBConnection.dbExecute(
                 CustomerQuery.insertCustomer(
                         name.getText().trim(),
                         address.getText().trim(),
                         phone.getText().trim(),
-                        whatsapp.getText().trim(),
                         Double.parseDouble(creditLimit.getText().trim()),
                         Double.parseDouble(debitLimit.getText().trim())
                 )
@@ -58,7 +61,6 @@ public class CustomerFactory {
                             resultSet.getString(Const.CUSTOMER_NAME),
                             resultSet.getString(Const.CUSTOMER_ADDRESS),
                             resultSet.getString(Const.CUSTOMER_PHONE),
-                            resultSet.getString(Const.CUSTOMER_WHATSAPP),
                             resultSet.getDouble(Const.CUSTOMER_CREDIT_LIMIT),
                             resultSet.getDouble(Const.CUSTOMER_DEBIT_LIMIT)
                     )
@@ -68,14 +70,16 @@ public class CustomerFactory {
         }
     }
 
-    public void setCustomerDetails(ListView<Customer> listView, ImageView imageView, Label nameLabel, Label phoneLabel, Label whatsappLabel, Label addressLabel, Customer selectedCustomer) {
+    public void setCustomerDetails(ListView<Customer> listView, ImageView imageView, TextField nameField, TextField contactField, TextField addressFiled, TextField emailField, TextField creditLimit, TextField debitLimit, Customer selectedCustomer) {
         selectedCustomer = listView.getSelectionModel().getSelectedItem();
         Image image = new Image(getClass().getResource(PathHelper.CUSTOMER_IMAGE_FILE).toString());
         imageView.setImage(image);
-        nameLabel.setText(selectedCustomer.getName());
-        phoneLabel.setText("Ph: " + selectedCustomer.getPhone());
-        whatsappLabel.setText("Whatsapp:" + selectedCustomer.getWhatsapp());
-        addressLabel.setText(selectedCustomer.getAddress());
+        nameField.setText(selectedCustomer.getName());
+        contactField.setText("Ph: " + selectedCustomer.getPhone());
+        addressFiled.setText(selectedCustomer.getAddress());
+        emailField.setText(selectedCustomer.getAddress());
+        creditLimit.setText(String.valueOf(selectedCustomer.getCreditLimit()));
+        debitLimit.setText(String.valueOf(selectedCustomer.getDebitLimit()));
     }
 
     public void searchCustomer(ListView<Customer> listView, TextField searchField) {
@@ -113,11 +117,11 @@ public class CustomerFactory {
 
     }
 
-    public void deleteCustomer(String phone) throws SQLException {
+    public void deleteCustomer(Customer selectedCustomer) throws SQLException {
 
         // * Get Customer Id from the selected item
         resultSet = DBConnection.dbExecuteQuery(
-                CustomerQuery.getCustomerId(phone)
+                CustomerQuery.getCustomerId(selectedCustomer.getPhone())
         );
 
         while (resultSet.next()) {
@@ -135,7 +139,7 @@ public class CustomerFactory {
         listView.setCellFactory(new Callback<ListView<Customer>, ListCell<Customer>>() {
             @Override
             public ListCell<Customer> call(ListView<Customer> customerListView) {
-                return new CustomListCell();
+                return new CustomerListCell();
             }
         });
     }

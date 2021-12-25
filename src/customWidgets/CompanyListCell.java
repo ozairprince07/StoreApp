@@ -10,9 +10,9 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
-import model.Customer;
+import model.Company;
 
-public class CustomListCell extends ListCell<Customer> {
+public class CompanyListCell extends ListCell<Company> {
 
     private final HBox hBox = new HBox();
     private final VBox infoBox = new VBox();
@@ -21,7 +21,7 @@ public class CustomListCell extends ListCell<Customer> {
     private final ImageView imageView = new ImageView();
     private final Image image = new Image(getClass().getResource(PathHelper.CUSTOMER_IMAGE_FILE).toString());
 
-    public CustomListCell() {
+    public CompanyListCell() {
         super();
         imageView.setFitWidth(45);
         imageView.setFitHeight(45);
@@ -35,11 +35,11 @@ public class CustomListCell extends ListCell<Customer> {
     }
 
     @Override
-    protected void updateItem(Customer item, boolean empty) {
+    protected void updateItem(Company item, boolean empty) {
         super.updateItem(item, empty);
         if (item != null) {
-            name.setText((item != null) ? item.getName() : "<null>");
-            phone.setText((item != null) ? item.getPhone() : "<null>");
+            name.setText((item != null) ? item.getCompanyName() : "<null>");
+            phone.setText((item != null) ? item.getCompanyContact() : "<null>");
             imageView.setImage(image);
             setGraphic(hBox);
         } else {

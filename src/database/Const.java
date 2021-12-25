@@ -38,7 +38,7 @@ public class Const {
     public static String PRODUCT_CODE = "code";
     public static String PRODUCT_NAME = "name";
     public static String PRODUCT_UNIT_PRICE = "unit_price";
-    public static String PRODUCT_COST_PRICE = "cost_price";
+    public static String PRODUCT_COST_PRICE = "purchasing_price";
     public static String PRODUCT_QUANTITY = "quantity";
     public static String PRODUCT_IMAGE = "image";
 

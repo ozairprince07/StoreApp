@@ -10,15 +10,13 @@ public class Customer {
     private final StringProperty name;
     private final StringProperty address;
     private final StringProperty phone;
-    private final StringProperty whatsapp;
     private final DoubleProperty creditLimit;
     private final DoubleProperty debitLimit;
 
-    public Customer(String name, String address, String phone, String whatsapp, double creditLimit, double debitLimit) {
+    public Customer(String name, String address, String phone, double creditLimit, double debitLimit) {
         this.name = new SimpleStringProperty(name);
         this.address = new SimpleStringProperty(address);
         this.phone = new SimpleStringProperty(phone);
-        this.whatsapp = new SimpleStringProperty(whatsapp);
         this.creditLimit = new SimpleDoubleProperty(creditLimit);
         this.debitLimit = new SimpleDoubleProperty(debitLimit);
     }
@@ -57,18 +55,6 @@ public class Customer {
 
     public StringProperty phoneProperty() {
         return phone;
-    }
-
-    public String getWhatsapp() {
-        return whatsapp.get();
-    }
-
-    public void setWhatsapp(String whatsapp) {
-        this.whatsapp.set(whatsapp);
-    }
-
-    public StringProperty whatsappProperty() {
-        return whatsapp;
     }
 
     public double getCreditLimit() {

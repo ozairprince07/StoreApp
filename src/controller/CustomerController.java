@@ -4,11 +4,12 @@ import factory.CustomerFactory;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
+import javafx.scene.control.Button;
 import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import model.Customer;
@@ -21,9 +22,11 @@ public class CustomerController implements Initializable {
 
     public ListView<Customer> listView;
     public TextField searchField;
+    public ImageView customerImage;
+    public Button editBtn, addBtn, saveBtn, resetBtn;
+    public AnchorPane imagePane;
 
-    public ImageView customerImageView;
-    public Label nameLabel, phoneLabel, whatsappLabel, addressLabel;
+    public TextField nameField, contactField, addressField, emailField, creditLimit, debitLimit;
 
     CustomerFactory customerFactory = new CustomerFactory();
 
@@ -41,7 +44,7 @@ public class CustomerController implements Initializable {
         listView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Customer>() {
             @Override
             public void changed(ObservableValue<? extends Customer> observableValue, Customer customer, Customer selectedCustomer) {
-                customerFactory.setCustomerDetails(listView, customerImageView, nameLabel, phoneLabel, whatsappLabel, addressLabel, selectedCustomer);
+                customerFactory.setCustomerDetails(listView, customerImage, nameField, contactField, addressField, emailField, creditLimit, debitLimit, selectedCustomer);
             }
         });
 
@@ -50,6 +53,37 @@ public class CustomerController implements Initializable {
         // * Search Customers from the listview
         searchField.setOnKeyPressed(e -> {
             customerFactory.searchCustomer(listView, searchField);
+        });
+
+        imagePane.setOnMouseEntered(e -> {
+            editBtn.setVisible(true);
+        });
+
+        imagePane.setOnMouseExited(e -> {
+            editBtn.setVisible(false);
+        });
+
+        addBtn.setOnAction(e -> {
+            nameField.clear();
+            contactField.clear();
+            addressField.clear();
+            emailField.clear();
+            creditLimit.clear();
+            debitLimit.clear();
+            listView.getSelectionModel().clearSelection();
+        });
+
+        saveBtn.setOnAction(e -> {
+            try {
+                customerFactory.addCustomer(
+                        nameField, addressField,
+                        contactField,
+                        creditLimit,
+                        debitLimit
+                );
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
         });
 
     }

@@ -2,19 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/AddItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/CompanyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/components/menu/comboBox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customWidgets/CompanyListCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customWidgets/InputFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dialogView/addItem.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/CompanyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/InvoiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/query/CompanyQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/company.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/56f0b417-16a9-4834-b3e7-c12d4d7689ec/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController$ColorRectCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController$ColorRectCell.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/ExploreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/ExploreController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/factory/ProductFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/factory/ProductFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/helper/ViewHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/helper/ViewHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/InvoiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/InvoiceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/database/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/database/Const.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/helper/PathHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/helper/PathHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StoreApp/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/module-info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/customer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/explore.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/explore.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StoreApp/view/invoice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StoreApp/view/invoice.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/InvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/InvoiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/customWidgets/CustomListCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/customWidgets/CustomerListCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/Const.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/factory/CustomerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/CustomerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factory/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factory/ProductFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/Excel/WorkBook.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/Excel/WorkBook.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/PathHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/PathHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/query/CustomerQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/query/CustomerQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/customer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/customer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/invoice.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/invoice.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,10 +139,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/view/main.fxml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/css/themes/dark/dark.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/configureTheme/Theme.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/helper/PathHelper.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/css/themes/dark/dark.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/controller/MainController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/helper/PathHelper.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -197,14 +229,14 @@
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
     <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Libraries/poi-3.7.jar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/app" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.23770492" />
+    <property name="project.structure.side.proportion" value="0.16283348" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RebelAgentSelection">
@@ -299,6 +331,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringFormatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.StringFormatter" />
+      <module name="StoreApp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordIndexing" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.WordIndexing" />
       <module name="StoreApp" />
@@ -354,7 +400,13 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.ObjectUnion" />
       <item itemvalue="Application.WordIndexing" />
+      <item itemvalue="Application.StringFormatter" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StringFormatter" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -424,6 +476,23 @@
       <workItem from="1638686202989" duration="19661000" />
       <workItem from="1638706942371" duration="1629000" />
       <workItem from="1638809599801" duration="690000" />
+      <workItem from="1638930624964" duration="1035000" />
+      <workItem from="1638954952580" duration="4143000" />
+      <workItem from="1638985095227" duration="365000" />
+      <workItem from="1639122177450" duration="114000" />
+      <workItem from="1639126265838" duration="141000" />
+      <workItem from="1639643368637" duration="3561000" />
+      <workItem from="1639654158530" duration="829000" />
+      <workItem from="1639740416892" duration="318000" />
+      <workItem from="1639829399930" duration="891000" />
+      <workItem from="1639831146916" duration="7770000" />
+      <workItem from="1639878308207" duration="22725000" />
+      <workItem from="1640263031693" duration="2212000" />
+      <workItem from="1640271565257" duration="2025000" />
+      <workItem from="1640330131569" duration="140000" />
+      <workItem from="1640349863703" duration="414000" />
+      <workItem from="1640396773296" duration="10000" />
+      <workItem from="1640404179029" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1638587854466</created>
@@ -439,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638707036703</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial Commit">
+      <created>1638930835496</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638930835496</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -504,6 +580,10 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">

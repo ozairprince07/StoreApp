@@ -241,7 +241,6 @@ public class ProductFactory {
         exportHelper.excelExport(tableView);
     }
 
-
 //    private void addButtonToTableView(TableView<Product> tableView) {
 //        TableColumn<Product, Void> actionCol = new TableColumn<>("Actions");
 //
