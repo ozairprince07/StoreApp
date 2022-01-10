@@ -10,15 +10,15 @@ public class Customer {
     private final StringProperty name;
     private final StringProperty address;
     private final StringProperty phone;
-    private final DoubleProperty creditLimit;
-    private final DoubleProperty debitLimit;
+    private final DoubleProperty credit;
+    private final DoubleProperty debit;
 
     public Customer(String name, String address, String phone, double creditLimit, double debitLimit) {
         this.name = new SimpleStringProperty(name);
         this.address = new SimpleStringProperty(address);
         this.phone = new SimpleStringProperty(phone);
-        this.creditLimit = new SimpleDoubleProperty(creditLimit);
-        this.debitLimit = new SimpleDoubleProperty(debitLimit);
+        this.credit = new SimpleDoubleProperty(creditLimit);
+        this.debit = new SimpleDoubleProperty(debitLimit);
     }
 
     public String getName() {
@@ -57,28 +57,28 @@ public class Customer {
         return phone;
     }
 
-    public double getCreditLimit() {
-        return creditLimit.get();
+    public double getCredit() {
+        return credit.get();
     }
 
-    public void setCreditLimit(double creditLimit) {
-        this.creditLimit.set(creditLimit);
+    public void setCredit(double credit) {
+        this.credit.set(credit);
     }
 
-    public DoubleProperty creditLimitProperty() {
-        return creditLimit;
+    public DoubleProperty creditProperty() {
+        return credit;
     }
 
-    public double getDebitLimit() {
-        return debitLimit.get();
+    public double getDebit() {
+        return debit.get();
     }
 
-    public void setDebitLimit(double debitLimit) {
-        this.debitLimit.set(debitLimit);
+    public void setDebit(double debit) {
+        this.debit.set(debit);
     }
 
-    public DoubleProperty debitLimitProperty() {
-        return debitLimit;
+    public DoubleProperty debitProperty() {
+        return debit;
     }
 
 }

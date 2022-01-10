@@ -6,7 +6,18 @@ module StoreApp {
     requires com.jfoenix;
     requires AnimateFX;
     requires poi;
+    requires pdfa;
+    requires pdftest;
+    requires kernel;
+    requires layout;
+    requires io;
+    requires sign;
+    requires styled.xml.parser;
+    requires svg;
+    requires forms;
+    requires jPDFViewerFX;
     requires java.sql;
+    requires mysql.connector.java;
     exports controller;
     exports query;
     exports database;

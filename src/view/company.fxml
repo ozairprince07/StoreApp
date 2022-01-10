@@ -36,7 +36,7 @@
                           styleClass="coloredButton" text="Add Company" AnchorPane.bottomAnchor="15.0"
                           AnchorPane.rightAnchor="15.0">
                      <graphic>
-                        <FontAwesomeIcon iconName="PLUS" size="1.2em" styleClass="glyph-icon"/>
+                        <FontAwesomeIcon iconName="PLUS" size="16px" styleClass="glyph-icon"/>
                      </graphic>
                      <padding>
                         <Insets left="15.0" right="15.0"/>

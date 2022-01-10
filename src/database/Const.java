@@ -57,7 +57,7 @@ public class Const {
     public static String CUSTOMER_DEBIT_LIMIT = "debit_limit";
 
     /* ? -> -> -> -> -> Columns Order <- <- <- <- <- */
-    public static String ORDER_ID = "order-id";
+    public static String ORDER_ID = "order_id";
     public static String ORDER_CUSTOMER_ID = "customer_id";
     public static String ORDER_DATE_CREATED = "date_created";
 

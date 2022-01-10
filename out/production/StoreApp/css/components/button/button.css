@@ -1,7 +1,8 @@
 .button {
     -fx-background-color: derive(-fx-button-background-default, 0%);
     -fx-text-fill: derive(-fx-button-text-default, 0%);
-    -fx-pref-height: 30px;
+    -fx-pref-height: 24px;
+    -fx-font-size: 12px;
     -fx-border-color: derive(-fx-button-border-color, 0%);
 }
 

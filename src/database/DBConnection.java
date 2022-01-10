@@ -6,12 +6,10 @@ public class DBConnection {
 
     private static final String DB_NAME = "Inventory";
     private static final String USER = "root";
-    private static final String PASS = "welcome123";
+    private static final String PASS = "pass";
     private static final String CONNECTION_URL = "jdbc:mysql://localhost:3306/".concat(DB_NAME);
 
     private static Connection connection;
-
-    private static ResultSet resultSet;
 
     public DBConnection() throws SQLException {
         dbConnect();
@@ -36,8 +34,7 @@ public class DBConnection {
     public static ResultSet dbExecuteQuery(String sql) throws SQLException {
         dbConnect();
         PreparedStatement ps = connection.prepareStatement(sql);
-        resultSet = ps.executeQuery();
-        return resultSet;
+        return ps.executeQuery();
     }
 
 }

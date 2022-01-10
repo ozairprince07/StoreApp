@@ -1,7 +1,7 @@
 .toggle-button {
     -fx-background-color: derive(-fx-toggle-button-background-default, 0%);
     -fx-text-fill: derive(-fx-toggle-button-text-default, 0%);
-    -fx-font-size: 14px;
+    -fx-font-size: 13px;
 }
 
 .toggle-button:hover {

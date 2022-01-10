@@ -23,10 +23,10 @@ public class CompanyListCell extends ListCell<Company> {
 
     public CompanyListCell() {
         super();
-        imageView.setFitWidth(45);
-        imageView.setFitHeight(45);
-        name.setFont(new Font(16));
-        phone.setFont(new Font(14));
+        imageView.setFitWidth(36);
+        imageView.setFitHeight(36);
+        name.setFont(new Font(14));
+        phone.setFont(new Font(12));
         infoBox.getChildren().addAll(name, phone);
         hBox.getChildren().addAll(imageView, infoBox);
         hBox.setAlignment(Pos.CENTER_LEFT);

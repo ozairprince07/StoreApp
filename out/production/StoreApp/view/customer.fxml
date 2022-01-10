@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
-<?import java.net.URL?>
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ListView?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.effect.DropShadow?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.paint.Color?>
-<?import javafx.scene.text.Font?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
 
-<BorderPane prefHeight="600.0" prefWidth="800.0" styleClass="back" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerController">
+<BorderPane prefHeight="600.0" prefWidth="800.0" styleClass="back" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerController">
    <left>
       <VBox alignment="TOP_CENTER" spacing="10.0" styleClass="main" BorderPane.alignment="CENTER">
          <BorderPane.margin>
@@ -43,7 +35,7 @@
                   <ListView fx:id="listView" prefWidth="270.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                   <Button fx:id="addBtn" graphicTextGap="10.0" layoutX="196.0" layoutY="478.0" mnemonicParsing="false" styleClass="coloredButton" text="Add Customer" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0">
                      <graphic>
-                        <FontAwesomeIcon iconName="PLUS" size="1.2em" styleClass="glyph-icon" />
+                        <FontAwesomeIcon iconName="PLUS" size="16px" styleClass="glyph-icon" />
                      </graphic>
                      <padding>
                         <Insets left="15.0" right="15.0" />

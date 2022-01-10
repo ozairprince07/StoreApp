@@ -4,6 +4,8 @@ public class PathHelper {
 
     // ? ----------------------- Style Sheets Path ----------------------
 
+    public static final String CSS_MAIN = "/css/main.css";
+
     // ? ----------------------- Style Sheets Light ----------------------
     public static final String LIGHT = "/css/themes/light/light.css";
     public static final String LIGHT_BLUE = "/css/themes/light/lightBlue.css";

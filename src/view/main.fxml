@@ -27,8 +27,7 @@
                     <ToggleButton fx:id="dashboardBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
                                   mnemonicParsing="false" text="Dashboard" HBox.hgrow="ALWAYS">
                         <graphic>
-                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="1.5em"
-                                             styleClass="glyph-icon"/>
+                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="18" styleClass="glyph-icon"/>
                         </graphic>
                         <cursor>
                             <Cursor fx:constant="HAND"/>
@@ -39,7 +38,7 @@
                     <ToggleButton fx:id="invoiceBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
                                   mnemonicParsing="false" text="Invoice" HBox.hgrow="ALWAYS">
                         <graphic>
-                            <FontAwesomeIcon iconName="SHOPPING_CART" selectionStart="2" size="1.5em"
+                            <FontAwesomeIcon iconName="SHOPPING_CART" selectionStart="2" size="18"
                                              styleClass="glyph-icon"/>
                         </graphic>
                         <cursor>
@@ -54,8 +53,7 @@
                     <ToggleButton fx:id="exploreBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
                                   mnemonicParsing="false" text="Explore" HBox.hgrow="ALWAYS">
                         <graphic>
-                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="1.5em"
-                                             styleClass="glyph-icon"/>
+                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="18" styleClass="glyph-icon"/>
                         </graphic>
                         <cursor>
                             <Cursor fx:constant="HAND"/>
@@ -66,8 +64,7 @@
                     <ToggleButton fx:id="customerBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
                                   mnemonicParsing="false" text="Customer" HBox.hgrow="ALWAYS">
                         <graphic>
-                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="1.5em"
-                                             styleClass="glyph-icon"/>
+                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="18" styleClass="glyph-icon"/>
                         </graphic>
                         <cursor>
                             <Cursor fx:constant="HAND"/>
@@ -78,8 +75,7 @@
                     <ToggleButton fx:id="companyBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
                                   mnemonicParsing="false" text="Company" HBox.hgrow="ALWAYS">
                         <graphic>
-                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="1.5em"
-                                             styleClass="glyph-icon"/>
+                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="18" styleClass="glyph-icon"/>
                         </graphic>
                         <cursor>
                             <Cursor fx:constant="HAND"/>
@@ -91,8 +87,7 @@
                         <ToggleButton fx:id="todoBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
                                       mnemonicParsing="false" text="Todo List" HBox.hgrow="ALWAYS">
                             <graphic>
-                                <FontAwesomeIcon iconName="STAR" selectionStart="2" size="1.5em"
-                                                 styleClass="glyph-icon"/>
+                                <FontAwesomeIcon iconName="STAR" selectionStart="2" size="18" styleClass="glyph-icon"/>
                             </graphic>
                         </ToggleButton>
                     </children>
@@ -101,8 +96,7 @@
                     <ToggleButton fx:id="historyBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
                                   mnemonicParsing="false" text="History" HBox.hgrow="ALWAYS">
                         <graphic>
-                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="1.5em"
-                                             styleClass="glyph-icon"/>
+                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="18" styleClass="glyph-icon"/>
                         </graphic>
                         <cursor>
                             <Cursor fx:constant="HAND"/>
@@ -113,8 +107,7 @@
                     <ToggleButton fx:id="settingBtn" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="130.0"
                                   mnemonicParsing="false" text="Setting" HBox.hgrow="ALWAYS">
                         <graphic>
-                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="1.5em"
-                                             styleClass="glyph-icon"/>
+                            <FontAwesomeIcon iconName="DASHBOARD" selectionStart="2" size="18" styleClass="glyph-icon"/>
                         </graphic>
                         <cursor>
                             <Cursor fx:constant="HAND"/>
@@ -132,7 +125,7 @@
                           mnemonicParsing="false" prefWidth="40.0" styleClass="toggle-button" text="ToggleButton"
                           AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
                 <graphic>
-                    <FontAwesomeIcon iconName="BARS" size="1.5em" styleClass="glyph-icon"/>
+                    <FontAwesomeIcon iconName="BARS" size="1.8em" styleClass="glyph-icon"/>
                 </graphic>
                 <cursor>
                     <Cursor fx:constant="HAND"/>

@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import java.net.URL?>
 <BorderPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="600.0" prefWidth="800.0" styleClass="back"
-            xmlns="http://javafx.com/javafx/17" fx:controller="controller.CustomerController">
+            xmlns="http://javafx.com/javafx/11.0.2" fx:controller="controller.CustomerController">
    <left>
       <VBox alignment="TOP_CENTER" spacing="10.0" styleClass="main" BorderPane.alignment="CENTER">
          <BorderPane.margin>
@@ -42,7 +42,7 @@
                           styleClass="coloredButton" text="Add Customer" AnchorPane.bottomAnchor="15.0"
                           AnchorPane.rightAnchor="15.0">
                      <graphic>
-                        <FontAwesomeIcon iconName="PLUS" size="1.2em" styleClass="glyph-icon"/>
+                        <FontAwesomeIcon iconName="PLUS" size="16px" styleClass="glyph-icon"/>
                      </graphic>
                      <padding>
                         <Insets left="15.0" right="15.0"/>
